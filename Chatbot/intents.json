@@ -1,0 +1,1205 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns":["Hi","Hey","Hey hi","Is anyone there?","Hello","Good day"],
+            "responses": ["Hey :-)","Hello, thanks for visiting","Hi there, what can I do for you?","Hi there, how can I help?"]
+        },
+        {
+            "tag": "questions",
+            "patterns": ["How are you?","What about you?"],
+            "responses": ["I am good, thanks for asking","I am fine,I am good! hope you also good"]
+        },
+        {
+            "tag": "good_morning",
+            "patterns": ["Good morning"],
+            "responses": [ "Good morning! How can I assist you today?"]
+        },
+        {
+            "tag": "good_afternoon",
+            "patterns": ["Good afternoon"],
+            "responses": [ "Good afternoon! How can I assist you today?"]
+        },
+        {
+            "tag": "good_evening",
+            "patterns": ["Good evening"],
+            "responses": [ "Good evening! How can I assist you today?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye","nice to meet you", "See you later","ok bye","hmm bye","mm bye","okay bye", "Goodbye","See you again"],
+            "responses": ["See you later, thanks for visiting","Bye! Have a nice day","Bye! Come back again soon."]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you","ok thank you","okay thank you","okay thanks","ok thanks","That's helpful", "Thank's a lot!"],
+            "responses": ["Happy to help you!", "You are welcome always!", "My pleasure"]
+        },
+        {
+            "tag": "common",
+            "patterns": ["ohh ok","ok","okay","Mm","Hmm","Mmm"],
+            "responses": ["what's next?","what scheme you want to know next?"]
+        },
+        {
+            "tag": "about_bot",
+            "patterns": ["what can you do","what do you do", "who are you", "what is this","who is this","tell me about yourself","tell me about you"],
+            "responses": ["I'm a chatbot designed to provide information and assistance regarding government schemes.", "I'm here to help you with any questions you have regarding government schemes!", "I'm a virtual assistant programmed to assist you."]
+        },
+        {
+            "tag": "government_scheme",
+            "patterns": ["what are the current government schemes in india","what are the schemes are available","what are the schemes are available right now", "tell me about current schemes", "current government schemes in india", "india's current government schemes","government scheme","government schemes","indian government schemes","central government schemes", "recommend some schemes","tell me some government schemes", "government services", "schemes"],
+            "responses": ["Sure! Here are some current indian government schemes: \n1.Pradhan Mantri Jan Dhan Yojana (PMJDY)\n2.Pradhan Mantri Ujjwala Yojana (PMUY)\n3.Pradhan Mantri Kisan Samman Nidhi (PM-Kisan)\n4.Atal Pension Yojana (APY)\n5.Swachh Bharat Abhiyan (Clean India Mission)\n6.Make in India\n7.Digital India\n8.Skill India\n9.Stand-Up India\n10.Startup India"]
+        },
+        {
+            "tag": "about_pmjdy",
+            "patterns": ["tell me about pmjdy","pmjdy", "about pmjdy", "describe pmjdy","pmjdy scheme","about pmjdy scheme"],
+            "responses": ["Pradhan Mantri Jan Dhan Yojana (PMJDY) is a financial inclusion program that aims to provide banking services to every household in India. It offers basic banking services such as a savings account, remittance, insurance, and pension to the unbanked population. The scheme also provides beneficiaries with a RuPay debit card, an accidental insurance cover, and an overdraft facility."]
+        },
+        {
+            "tag": "more_info_pmjdy",
+            "patterns": ["where to find more information about pmjdy","give me more information about pmjdy scheme", "tell me more about pmjdy","learn more about pmjdy", "official website for pmjdy", "more info about pmjdy","more about pmjdy","more information about pmjdy scheme"],
+            "responses": ["Its primary goal is to provide universal access to financial services for all citizens, especially those from marginalized and low-income backgrounds. Through PMJDY, basic savings bank accounts are opened for individuals with minimal documentation requirements and no minimum balance constraints. Account holders are also issued RuPay debit cards, enabling them to make transactions and access banking services conveniently. Additionally, the scheme offers benefits such as overdraft facilities, insurance cover, and access to pension schemes, promoting financial security and empowerment among previously underserved populations in both rural and urban areas of India. For more information, you can visit the official government website 'https://www.pmjdy.gov.in/'."]
+        },
+        {
+            "tag": "eligibility_criteria_pmjdy",
+            "patterns": ["who is eligible for pmjdy scheme?","who is eligible for pmjdy","eligible for pmjdy scheme?","how do I qualify for pmjdy", "eligibility criteria for pmjdy"],
+            "responses": ["Any Indian citizen above the age of 10 years can open a bank account under the PMJDY scheme. The account can be opened with zero balance and does not require any minimum balance. Additionally, applicants should not already have a bank account."]
+        },
+        {
+            "tag": "application_process_pmjdy",
+            "patterns": ["how to apply for pmjdy scheme","how to apply for pmjdy", "application process for pmjdy scheme", "apply for pmjdy"],
+            "responses": ["To apply for PMJDY, visit any bank branch or business correspondent outlet. You will need to provide basic identification documents such as Aadhaar card, voter ID, or PAN card. Fill out the account opening form and submit the necessary documents. Once your application is processed, you will receive your account details and a RuPay debit card."]
+        },
+        {
+            "tag": "about_pmuy",
+            "patterns": ["tell me about pmuy","pmuy", "about pmuy", "describe pmuy","pmuy scheme","about pmuy scheme"],
+            "responses": ["The Pradhan Mantri Ujjwala Yojana (PMUY) is a scheme by the Indian government aiming to provide clean cooking fuel, LPG, to below-poverty-line households, empowering women and improving health by reducing indoor air pollution. It offers financial assistance for LPG connections and subsidies on refills, contributing to financial inclusion and environmental sustainability."]
+        },
+        {
+            "tag": "more_info_pmuy",
+            "patterns": ["where to find more information about pmuy","give me more information about pmuy scheme", "tell me more about pmuy","learn more about pmuy", "official website for pmuy", "more info about pmuy","more about pmuy","more information about pmuy scheme"],
+            "responses": ["PMUY aims to address health hazards associated with traditional cooking methods such as wood, coal, and cow dung, which contribute to indoor air pollution and respiratory illnesses, particularly affecting women and children. Under PMUY, eligible beneficiaries receive financial assistance in the form of a subsidy to purchase LPG connections, along with a stove. The scheme also provides for interest-free loans for purchasing the initial refill of LPG cylinders. By promoting the use of clean cooking fuel, PMUY not only improves the health and well-being of millions but also contributes to environmental sustainability by reducing carbon emissions and deforestation associated with traditional cooking methods. You can find more information about the Pradhan Mantri Ujjwala Yojana (PMUY) scheme on the official website 'https://pmuy.gov.in'."]
+        },
+        {
+            "tag": "eligibility_criteria_pmuy",
+            "patterns": ["who is eligible for pmuy scheme?","who is eligible for pmuy","eligible for pmuy scheme?","how do I qualify for pmuy", "eligibility criteria for pmuy"],
+            "responses": ["Eligibility for Pradhan Mantri Ujjwala Yojana (PMUY) requires households to be below the poverty line, not possess any existing LPG connection, and have a female member as the primary beneficiary. Documentation such as BPL certificates and Aadhaar cards is necessary for verification."]
+        },
+        {
+            "tag": "application_process_pmuy",
+            "patterns": ["how to apply for pmuy scheme","how to apply for pmuy", "application process for pmuy scheme", "apply for pmuy"],
+            "responses": ["To apply for the Pradhan Mantri Ujjwala Yojana (PMUY), eligible households need to visit the nearest LPG distributor, fill out the application form, and submit required documents such as Aadhaar card, BPL certificate, and a passport-sized photograph for verification. Once approved, they receive financial assistance for purchasing an LPG connection."]
+        },
+        {
+            "tag": "about_pmkisan",
+            "patterns": ["tell me about pmkisan","pmkisan", "about pmkisan", "describe pmkisan","pmkisan scheme","about pmkisan scheme"],
+            "responses": ["Pradhan Mantri Kisan Samman Nidhi (PM-Kisan) is an income support scheme for farmers launched by the Government of India. Under this scheme, eligible farmers receive direct income support of Rs. 6,000 per year in three equal installments. The scheme aims to provide financial assistance to small and marginal farmers."]
+        },
+        {
+            "tag": "more_info_pmkisan",
+            "patterns": ["where to find more information about pmkisan","give me more information about pmkisan scheme", "tell me more about pmkisan","learn more about pmkisan", "official website for pmkisan", "more info about pmkisan","more about pmkisan","more information about pmkisan scheme"],
+            "responses": ["The scheme aims to augment the income of farmers and support their financial needs for purchasing agricultural inputs, improving productivity, and meeting household expenses. To ensure transparency and efficiency, the scheme leverages Aadhaar-based identification to identify beneficiaries and transfer funds directly to their bank accounts. PM-KISAN has emerged as one of the largest income support schemes globally, benefiting millions of farmers across the country and contributing to their economic stability and well-being. For more information, you can visit the official government website 'https://pmkisan.gov.in/'."]
+        },
+        {
+            "tag": "eligibility_criteria_pmkisan",
+            "patterns": ["who is eligible for pmkisan scheme?","who is eligible for pmkisan","eligible for pmkisan scheme?","how do I qualify for pmkisan", "eligibility criteria for pmkisan"],
+            "responses": ["Under PM-Kisan, all landholding farmers' families in the country, irrespective of the size of their landholdings, are eligible to avail of the benefits. The scheme excludes individuals who are serving or retired government employees, professionals like doctors, engineers, lawyers, etc., and those who have paid income tax in the previous assessment year."]
+        },
+        {
+            "tag": "application_process_pmkisan",
+            "patterns": ["how to apply for pmkisan scheme","how to apply for pmkisan", "application process for pmkisan scheme", "apply for pmkisan"],
+            "responses": ["Farmers can apply for PM-Kisan through the official PM-Kisan website or by visiting the nearest Common Service Centre (CSC). They need to fill out the application form with details such as Aadhaar number, bank account details, and landholding information. Once the application is verified, the benefits are directly transferred to the beneficiary's bank account."]
+        },
+        {
+            "tag": "about_apy",
+            "patterns": ["tell me about apy","apy", "about apy", "describe apy","apy scheme","about apy scheme"],
+            "responses": ["Atal Pension Yojana (APY) is a pension scheme launched by the Government of India to provide a defined pension to citizens of India, especially workers in the unorganized sector. It aims to encourage saving for retirement by offering a guaranteed pension between Rs. 1,000 to Rs. 5,000 per month, depending on the contribution and age of the subscriber."]
+        },
+        {
+            "tag": "more_info_apy",
+            "patterns": ["where to find more information about apy","give me more information about apy scheme", "tell me more about apy","learn more about apy", "official website for apy", "more info about apy","more about apy","more information about apy scheme"],
+            "responses": ["The Atal Pension Yojana was launched to provide a pension to citizens in the unorganized sector, particularly those working in low-income jobs, who might not have access to formal pension schemes. Under APY, subscribers make regular contributions towards their pension during their working years and receive a guaranteed monthly pension after retirement. The pension amount depends on the contributions made and the age at which the scheme is joined. The scheme offers various pension amounts and contribution options to cater to different income groups. Additionally, the government provides co-contribution for eligible subscribers for a specified period to encourage enrollment. APY aims to promote financial inclusion and social security by ensuring a steady income stream for retirees in the unorganized sector. For more information, you can visit the official government website 'https://www.npscra.nsdl.co.in/scheme-details.php'."]
+        },
+        {
+            "tag": "eligibility_criteria_apy",
+            "patterns": ["who is eligible for apy scheme?","who is eligible for apy","eligible for apy scheme?","how do I qualify for apy", "eligibility criteria for apy"],
+            "responses": ["Any citizen of India between the ages of 18 to 40 years can join the Atal Pension Yojana. The subscriber should have a valid bank account and Aadhaar card to enroll in the scheme."]
+        },
+        {
+            "tag": "application_process_apy",
+            "patterns": ["how to apply for apy scheme","how to apply for apy", "application process for apy scheme", "apply for apy"],
+            "responses": ["To apply for APY, individuals can visit their bank or the nearest Point of Presence (PoP)-Service Provider. They need to fill out the APY registration form, provide their Aadhaar and bank account details, and choose the pension amount and frequency. Once enrolled, the contribution will be auto-debited from the subscriber's bank account."]
+        },
+        {
+            "tag": "about_swachh_bharat",
+            "patterns": ["tell me about swachh bharat","swachh bharat", "about swachh bharat", "describe swachh bharat","swachh bharat scheme","about swachh bharat scheme"],
+            "responses": ["Swachh Bharat Abhiyan, also known as the Clean India Mission, is a nation-wide campaign initiated by the Government of India to promote cleanliness, hygiene, and sanitation. It aims to eliminate open defecation, improve solid waste management, and bring about a behavioral change regarding sanitation practices."]
+        },
+        {
+            "tag": "more_info_swachh_bharat",
+            "patterns": ["where to find more information about swachh bharat","give me more information about swachh bharat scheme", "tell me more about swachh bharat","learn more about swachh bharat", "official website for swachh bharat", "more info about swachh bharat","more about swachh bharat","more information about swachh bharat scheme"],
+            "responses": ["The Swachh Bharat Abhiyan (Clean India Mission) is a nationwide cleanliness campaign launched by the Government of India with the aim of achieving a clean and open defecation-free India. Launched on October 2, 2014, coinciding with Mahatma Gandhi's birth anniversary, the campaign focuses on sanitation, waste management, and promoting hygiene practices across urban and rural areas. Swachh Bharat Abhiyan encompasses various initiatives such as building toilets, promoting the use of sanitary facilities, waste segregation, and cleanliness drives. The campaign also emphasizes behavioral change through awareness programs and community participation. Swachh Bharat Abhiyan has garnered significant attention and support, with millions of toilets constructed and substantial progress made towards improving sanitation and hygiene standards across the country. For more information, you can visit the official government website 'https://swachhbharat.mygov.in/'."]
+        },
+        {
+            "tag": "about_make_in_india",
+            "patterns": ["tell me about make in india","pmuy", "about make in india", "describe make in india","make in india scheme","about make in india scheme"],
+            "responses": ["Make in India is an initiative launched by the Government of India to promote manufacturing and production within the country. It aims to attract foreign investment, foster innovation, enhance skill development, and build a robust manufacturing ecosystem in India."]
+        },
+        {
+            "tag": "more_info_make_in_india",
+            "patterns": ["where to find more information about make in india","give me more information about make in india scheme", "tell me more about make in india","learn more about make in india", "official website for make in india", "more info about make in india","more about make in india","more information about make in india scheme"],
+            "responses": ["The Make in India initiative is a flagship program launched by the Government of India in September 2014 with the aim of transforming the country into a global manufacturing hub. The program seeks to attract foreign investment, foster innovation, enhance skill development, and promote entrepreneurship in various sectors such as automobiles, textiles, pharmaceuticals, electronics, and renewable energy. Make in India focuses on creating a conducive environment for business through initiatives like easing regulatory norms, improving infrastructure, and facilitating easier access to capital and land. The initiative aims to boost the contribution of the manufacturing sector to the country's GDP, create millions of jobs, and position India as a competitive player in the global market. For more information, you can visit the official government website 'https://www.makeinindia.com/'."]
+        },
+        {
+            "tag": "about_digital_india",
+            "patterns": ["tell me about digital india","digital india", "about digital india", "describe digital india","digital india scheme","about digital india scheme"],
+            "responses": ["Digital India is an initiative launched by the Government of India to transform India into a digitally empowered society and knowledge economy. It aims to provide digital infrastructure, deliver government services digitally, promote digital literacy, and enable digital empowerment of citizens."]
+        },
+        {
+            "tag": "more_info_digital_india",
+            "patterns": ["where to find more information about digital india","give me more information about digital india scheme", "tell me more about digital india","learn more about digital india", "official website for digital india", "more info about digital india","more about digital india","more information about digital india scheme"],
+            "responses": ["The Digital India initiative is a transformative program launched by the Government of India to harness the power of technology and digital infrastructure for inclusive growth and development across the country. Launched in July 2015, Digital India aims to bridge the digital divide by ensuring digital access, digital inclusion, and digital empowerment for all citizens. The program encompasses various pillars such as digital infrastructure, digital governance, digital empowerment, and promoting digital literacy and skills. Key components of Digital India include initiatives like BharatNet to provide broadband connectivity to rural areas, the National Digital Literacy Mission to promote digital literacy, and the Digital India Corporation to oversee the implementation of various projects. For more information, you can visit the official government website 'https://www.digitalindia.gov.in/'."]
+        },
+        {
+            "tag": "about_skill_india",
+            "patterns": ["tell me about skill india","skill india", "about skill india", "describe skill india","skill india scheme","about skill india scheme"],
+            "responses": ["Skill India is an initiative launched by the Government of India to empower the youth with skill sets that are relevant to the current job market. It aims to provide skill training to millions of Indian youth, making them employable in various sectors and contributing to the country's economic growth."]
+        },
+        {
+            "tag": "more_info_skill_india",
+            "patterns": ["where to find more information about skill india","give me more information about skill india scheme", "tell me more about skill india","learn more about skill india", "official website for skill india", "more info about skill india","more about skill india","more information about skill india scheme"],
+            "responses": ["The Skill India Mission is a flagship initiative launched by the Government of India in July 2015 to empower the country's youth with employable skills and bridge the gap between demand and supply of skilled workforce across various sectors. The program aims to train over 400 million people by 2022 through the National Skill Development Corporation (NSDC) and its partner organizations. Skill India encompasses various schemes and programs such as Pradhan Mantri Kaushal Vikas Yojana (PMKVY), National Apprenticeship Promotion Scheme (NAPS), and Skill Loan Scheme, among others. These initiatives focus on providing vocational training, enhancing existing skills, and promoting entrepreneurship to make individuals job-ready and globally competitive. For more information, you can visit the official government website 'https://www.skillindia.gov.in/'."]
+        },
+        {
+            "tag": "about_stand_up_india",
+            "patterns": ["tell me about standup india","standup india", "about standup india", "describe standup india","standup india schemes","about standup india scheme"],
+            "responses": ["Stand-Up India is a government scheme aimed at promoting entrepreneurship among women and SC/ST communities by providing loans for starting greenfield enterprises. The scheme facilitates bank loans between Rs. 10 lakh and Rs. 1 crore to at least one Scheduled Caste (SC) or Scheduled Tribe (ST) borrower and at least one woman borrower per bank branch."]
+        },
+        {
+            "tag": "more_info_stand_up_india",
+            "patterns": ["where to find more information about standup india","give me more information about standup india", "tell me more about standup india","learn more about standup india", "official website for standup india", "more info about standup india","more about standup india","more information about standup india scheme"],
+            "responses": ["The Stand-Up India scheme is a government initiative launched in April 2016 with the aim of promoting entrepreneurship among women, Scheduled Castes (SCs), and Scheduled Tribes (STs) by facilitating access to credit and support for starting their own ventures. Under this scheme, bank loans ranging from Rs. 10 lakh to Rs. 1 crore are provided to at least one woman entrepreneur per bank branch for setting up greenfield enterprises in manufacturing, services, or trading sectors. Additionally, the scheme encourages the establishment of non-individual enterprises, such as partnership firms or private limited companies, where women hold at least 51% of the shareholding. Stand-Up India also offers handholding support, including pre-loan training, facilitating loan approval processes, and providing guidance for setting up and managing businesses. For more information, you can visit the official government website 'https://www.standupmitra.in/'."]
+        },
+        {
+            "tag": "about_startup_india",
+            "patterns": ["tell me about startup india","startup india", "about startup india", "describe startup india","startup india scheme","about startup india scheme"],
+            "responses": ["Startup India is an initiative launched by the Government of India to promote and support startups in the country. It aims to foster entrepreneurship, create jobs, and drive economic growth through innovation and technology-driven startups. The initiative offers various benefits and incentives to startups such as funding support, tax exemptions, and regulatory simplification."]
+        },
+        {
+            "tag": "more_info_startup_india",
+            "patterns": ["where to find more information about startup india","give me more information about startup india scheme", "tell me more about startup india","learn more about startup india", "official website for startup india", "more info about startup india","more about startup india","more information about startup india scheme"],
+            "responses": ["The Startup India initiative is a flagship program launched by the Government of India in January 2016 to foster entrepreneurship and promote innovation across the country. The scheme aims to create a conducive ecosystem for startups by providing various incentives, support mechanisms, and policy reforms. Key features of the Startup India scheme include simplifying the regulatory framework for startups, offering tax benefits, facilitating access to funding, and providing mentorship and networking opportunities. Under this initiative, eligible startups can avail themselves of benefits such as self-certification, tax exemption for three consecutive years, and faster exit processes. For more information, you can visit the official government website 'https://www.startupindia.gov.in/'."]
+        },
+        {
+            "tag": "tamilnadu_govt_schemes",
+            "patterns": ["tamilnadu government schemes","government schemes in tamilnadu","some tamilnadu government schemes","current tamilnadu schemes","tell me the current tamilnadu government schemes","tamilnadu government schemes","tamilnadu schemes"],
+            "responses": ["Certainly! Here are some government schemes implemented by the state government of Tamil Nadu:\n1.Amma Two-Wheeler Scheme\n2.Amma Mini Clinics.\n3. Amma Cement Scheme.\n4.Amma Kudineer Thittam.\n5.Amma Unavagam.\n6.Tamil Nadu Free Laptop Scheme.\n7.Thalikku Thangam Thittam.\n8.Amma Baby Care Kit Scheme.\n9.Tamil Nadu Solar Energy Policy.\n10.Free Bicycle Scheme."]
+        },
+        
+        {
+            "tag": "amma_two_wheeler_scheme_about",
+            "patterns": ["tell me about amma two wheeler scheme","amma two wheeler","amma two wheeler scheme","two wheeler scheme", "about amma two wheeler scheme", "describe amma two wheeler shceme","about two wheeler scheme"],
+            "responses": ["Amma Two-Wheeler Scheme is aimed at providing financial assistance to working women to purchase mopeds."]
+        },
+        {
+            "tag": "amma_two_wheeler_scheme_more_info",
+            "patterns": ["where to find more information about amma two wheeler scheme","give me more information about amma two wheeler scheme", "tell me more about amma two wheeler scheme","learn more about amma two wheeler scheme", "official website for amma two wheeler scheme", "more info about amma two wheeler scheme","more about amma two wheeler scheme","more information about amma two wheeler scheme"],
+            "responses": ["The Amma Two-Wheeler Scheme, launched by the Government of Tamil Nadu in India, aims to economically empower women by providing them with subsidized two-wheelers. Under this initiative, eligible women, particularly from economically disadvantaged backgrounds, receive financial assistance towards purchasing new two-wheelers, enabling them to commute independently for education and employment opportunities. For more information about Amma Two-Wheeler Scheme, you can visit the official Tamil Nadu government website or inquire at the nearest government office."]
+        },
+        {
+            "tag": "amma_two_wheeler_scheme_eligibility",
+            "patterns": ["who is eligible for amma two wheeler scheme?","who is eligible for amma two wheeler","eligibility for amma two wheeler scheme?","how do I qualify for amma two wheeler scheme", "eligibility criteria for amma two wheeler scheme"],
+            "responses": ["Working women in Tamil Nadu are eligible for the Amma Two-Wheeler Scheme. They must meet certain income criteria specified by the government."]
+        },
+        {
+            "tag": "amma_two_wheeler_scheme_application_process",
+            "patterns": ["how to apply for amma two wheeler scheme","how to apply for amma two wheeler", "application process for amma two wheeler scheme", "apply for amma two wheeler scheme"],
+            "responses": ["To apply for the Amma Two-Wheeler Scheme, eligible women need to fill out an application form available at government offices or online portals. They should submit necessary documents such as proof of income, identification, and residence."]
+        },
+        {
+            "tag": "amma_mini_clinics_about",
+            "patterns": ["tell me about amma mini clinics scheme","amma mini clinics","amma mini clinics scheme","amma mini clinics scheme", "about amma mini clinics scheme", "describe amma mini clinics scheme","about mini clinics scheme"],
+            "responses": ["Amma Mini Clinics are small healthcare facilities established in various locations to provide basic medical services to the public."]
+        },
+        {
+            "tag": "amma_mini_clinics_more_info",
+            "patterns": ["where to find more information about amma mini clinics scheme","give me more information about amma mini clinics scheme", "tell me more about amma mini clinics scheme","learn more about amma mini clinics scheme", "official website for amma mini clinics scheme", "more info about amma mini clinics scheme","more about amma mini clinics scheme","more information about amma mini clinics scheme"],
+            "responses": [" This scheme aims to provide accessible healthcare services to the public, particularly in underserved areas, through the establishment of mini clinics. These clinics offer basic medical consultations, diagnostic services, and essential medications free of cost or at highly subsidized rates. They are typically located in areas where healthcare facilities are scarce, ensuring that even remote communities have access to essential medical care. The Amma Mini Clinics Scheme has significantly improved healthcare accessibility and affordability for the people of Tamil Nadu, contributing to better health outcomes and overall well-being. For more information about Amma Mini Clinics, you can visit the official Tamil Nadu government website or inquire at the nearest health department office."]
+        },
+        {
+            "tag": "amma_mini_clinics_eligibility",
+            "patterns": ["who is eligible for amma mini clinics scheme?","who is eligible for amma mini clinics","eligibility for amma mini clinics scheme?","how do I qualify for amma mini clinics scheme", "eligibility criteria for amma mini clinics scheme"],
+            "responses": ["There are no specific eligibility criteria to access services at Amma Mini Clinics. They are open to all residents of Tamil Nadu."]
+        },
+        {
+            "tag": "amma_mini_clinics_application_process",
+            "patterns": ["Application process for Amma Mini Clinics", "how to apply for Amma Mini Clinics","how to apply for amma mini clinics scheme", "apply for Amma Mini Clinics"],
+            "responses": ["No formal application process is required to avail services at Amma Mini Clinics. Patients can directly visit the clinics during operational hours for medical assistance."]
+        },
+        {
+            "tag": "amma_cement_scheme_about",
+            "patterns": ["tell me about amma cement scheme","amma cement","amma cement scheme","cement scheme", "about amma cement scheme", "describe amma cement scheme","about amma cement scheme"],
+            "responses": ["Amma Cement Scheme offers subsidized cement for low-income families to build their homes."]
+        },
+        {
+            "tag": "amma_cement_scheme_more_info",
+            "patterns": ["where to find more information about amma cement scheme","give me more information about amma cement scheme", "tell me more about amma cement scheme","learn more aboutamma cement scheme", "official website for amma cement scheme", "more info about amma cement scheme","more about amma cement","more information about amma cement scheme"],
+            "responses": ["The Amma Cement Scheme, launched by the Government of Tamil Nadu in India, is an initiative aimed at providing subsidized cement to low and middle-income households for construction purposes. Under this scheme, cement is made available at a reduced price through government-operated outlets, ensuring affordability for individuals undertaking construction projects such as building houses or renovating existing structures. The scheme primarily targets economically weaker sections of society, enabling them to access quality construction materials at lower costs. For more information about Amma Cement Scheme, you can visit the official Tamil Nadu government website or inquire at the nearest civil supplies corporation office."]
+        },
+        {
+            "tag": "amma_cement_scheme_eligibility",
+            "patterns": ["who is eligible for amma cement scheme?","who is eligible for amma cement","eligibility for amma cement scheme?","how do I qualify for amma cement scheme", "eligibility criteria for amma cement scheme"],
+            "responses": ["Low-income families residing in Tamil Nadu are eligible for the Amma Cement Scheme. They must meet certain income and housing criteria specified by the government."]
+        },
+        {
+            "tag": "amma_cement_scheme_application_process",
+            "patterns": ["Application process for Amma Cement Scheme", "how to apply for Amma Cement Scheme","how to apply for amma cement", "apply for Amma Cement Scheme"],
+            "responses": ["To avail of the benefits of the Amma Cement Scheme, eligible families need to apply through the designated application forms available at civil supplies corporation offices. They should submit necessary documents such as income proof, residence proof, and construction details."]
+        },
+        {
+            "tag": "amma_kudineer_thittam_about",
+            "patterns": ["tell me about amma kudineer thittam scheme","amma kudineer thittam","amma kudineer thittam scheme","kudineer thittam scheme", "about amma kudineer thittam scheme", "describe amma kudineer thittam scheme","about kudineer thittam scheme"],
+            "responses": ["Amma Kudineer Thittam is an initiative to provide safe drinking water to all households in Tamil Nadu."]
+        },
+        {
+            "tag": "amma_kudineer_thittam_more_info",
+            "patterns": ["where to find more information about amma kudineer thittam scheme","give me more information about amma kudineer thittam scheme", "tell me more about amma kudineer thittam","learn more about amma kudineer thittam scheme", "official website for amma kudineer thittam scheme", "more info about amma kudineer thittam scheme","more about amma kudineer thittam","more information about amma kudineer thittam scheme"],
+            "responses": ["The Amma Kudineer Thittam scheme, also known as the Amma Drinking Water Scheme, is a government initiative in Tamil Nadu, India, aimed at providing clean and safe drinking water to rural and urban areas. This scheme involves setting up water purification plants across various locations, ensuring access to potable water for communities facing water scarcity or contamination issues. Under the program, water is purified, packaged, and distributed at affordable prices, with a focus on reaching marginalized and underserved populations. The scheme not only addresses the immediate need for clean drinking water but also contributes to public health improvements by reducing waterborne diseases. For more information about Amma Kudineer Thittam, you can visit the official Tamil Nadu government website or inquire at the nearest municipal corporation office."]
+        },
+        {
+            "tag": "amma_kudineer_thittam_eligibility",
+            "patterns": ["who is eligible for amma kudineer thittam scheme?","who is eligible for amma kudineer thittam","eligibility for amma kudineer thittam scheme?","how do I qualify for amma kudineer thittam scheme", "eligibility criteria for amma kudineer thittam scheme"],
+            "responses": ["All households in Tamil Nadu are eligible for the benefits of Amma Kudineer Thittam."]
+        },
+        {
+            "tag": "amma_kudineer_thittam_application_process",
+            "patterns": ["Application process for Amma Kudineer Thittam", "how to apply for Amma Kudineer Thittam","how to apply for amma kudineer thittam scheme", "apply for Amma Kudineer Thittam"],
+            "responses": ["There is no specific application process to access safe drinking water under Amma Kudineer Thittam. The government ensures the provision of safe water to all eligible households through various water supply schemes."]
+        },
+        {
+            "tag": "amma_unavagam_about",
+            "patterns": ["tell me about amma unavagam scheme","amma unavagam","amma unavagam scheme","unavagam scheme", "about amma unavagam scheme", "describe amma unavagam scheme","about unavagam scheme"],
+            "responses": ["Amma Unavagam provides affordable food canteens offering nutritious meals at subsidized rates."]
+        },
+        {
+            "tag": "amma_unavagam_more_info",
+            "patterns": ["where to find more information about amma unavagam scheme","give me more information about amma unavagam scheme", "tell me more about amma unavagam","learn more about amma unavagam scheme", "official website for amma unavagam scheme", "more info about amma unavagam scheme","more about amma unavagam","more information about amma unavagam scheme"],
+            "responses": ["The Amma Unavagam Scheme, launched by the Government of Tamil Nadu in India, is a flagship welfare program aimed at providing nutritious and affordable meals to the economically disadvantaged sections of society. Under this initiative, government-run canteens called 'Amma Unavagams' are established across various locations, offering subsidized meals at highly affordable prices. These canteens serve a range of dishes, including rice, sambar, curries, and other local delicacies, ensuring that individuals and families have access to wholesome and balanced meals. The scheme targets vulnerable populations such as laborers, daily wage earners, and low-income households, providing them with a reliable source of affordable food. For more information about Amma Unavagam, you can visit the official Tamil Nadu government website or inquire at the nearest municipal corporation office."]
+        },
+        {
+            "tag": "amma_unavagam_eligibility",
+            "patterns": ["who is eligible for amma unavagam scheme?","who is eligible for amma unavagam","eligibility for amma unavagam scheme?","how do I qualify for amma unavagam scheme", "eligibility criteria for amma unavagam scheme"],
+            "responses": ["All residents of Tamil Nadu are eligible to avail meals from Amma Unavagam outlets."]
+        },
+        {
+            "tag": "amma_unavagam_application_process",
+            "patterns": ["Application process for Amma Unavagam", "how to apply for Amma Unavagam","how to apply for amma unavagam scheme","apply for Amma Unavagam"],
+            "responses": ["There is no formal application process to access meals from Amma Unavagam outlets. Individuals can visit the nearest outlet during operational hours and purchase meals at subsidized rates."]
+        },
+        {
+            "tag": "tamil_nadu_free_laptop_scheme_about",
+            "patterns": ["tell me about free laptop scheme","free laptop","free laptop scheme","tamilnadu free laptop scheme", "about free laptop scheme", "describe free laptop scheme","about tamilnadu free laptop scheme"],
+            "responses": ["Tamil Nadu Free Laptop Scheme distributes free laptops to students studying in government schools and colleges."]
+        },
+        {
+            "tag": "tamil_nadu_free_laptop_scheme_more_info",
+            "patterns": ["where to find more information about free laptop scheme","give me more information about free laptop scheme", "tell me more about free laptop scheme","learn more about free laptop scheme", "official website for free laptop scheme", "more info about free laptop scheme","more about free laptop","more information about free laptop scheme"],
+            "responses": ["The Tamil Nadu Free Laptop Scheme is a government initiative aimed at enhancing access to education and digital literacy among students in the state. Launched by the Government of Tamil Nadu, this scheme provides free laptops to eligible students enrolled in government-aided schools, colleges, and universities. The laptops are distributed to beneficiaries based on specific eligibility criteria, typically focusing on academic performance and socio-economic background. These laptops come preloaded with educational content and software, facilitating learning and research activities. By equipping students with laptops, the scheme aims to bridge the digital divide and empower them with the necessary tools for academic success and skill development in the modern digital age. For more information about Tamil Nadu Free Laptop Scheme, you can visit the official Tamil Nadu government website or inquire at the nearest education department office."]
+        },
+        {
+            "tag": "tamil_nadu_free_laptop_scheme_eligibility",
+            "patterns": ["who is eligible for free laptop scheme?","who is eligible for free laptop","eligibility for free laptop scheme?","how do I qualify for free laptop scheme", "eligibility criteria for free laptop scheme"],
+            "responses": ["Students studying in government schools and colleges in Tamil Nadu are eligible for free laptops under this scheme."]
+        },
+        {
+            "tag": "tamil_nadu_free_laptop_scheme_application_process",
+            "patterns": ["Application process for Tamil Nadu Free Laptop Scheme","how to apply for free laptop scheme","how to apply for free laptop", "how to apply for Tamil Nadu Free Laptop Scheme", "apply for Tamil Nadu Free Laptop Scheme"],
+            "responses": ["The distribution of free laptops is usually done through educational institutions. Eligible students need to fill out application forms provided by their respective institutions and submit necessary documents to receive the laptops."]
+        },
+        {
+            "tag": "thalikku_thangam_thittam_about",
+            "patterns": ["tell me about thalikku thangam thittam scheme","thalikku thangam thittam","thalikku thangam thittam scheme","tamilnadu gold scheme", "about thalikku thangam thittam scheme", "describe thalikku thangam thittam scheme","about thalikku thangam thittam scheme","Thalikku Thangam Thittam", "marriage assistance scheme", "financial aid for marriages", "daughter marriage assistance"],
+            "responses": ["Thalikku Thangam Thittam provides financial aid to economically backward families for the marriage of their daughters."]
+        },
+        {
+            "tag": "thalikku_thangam_thittam_more_info",
+            "patterns": ["where to find more information about thalikku thangam thittam scheme","give me more information about thalikku thangam thittam scheme", "tell me more about thalikku thangam thittam scheme","learn more about thalikku thangam thittam scheme", "official website for thalikku thangam thittam scheme", "more info about thalikku thangam thittam scheme","more about thalikku thangam thittam","more information about thalikku thangam thittam scheme"],
+            "responses": ["The Thalikku Thangam Thittam scheme is a welfare initiative introduced by the Government of Tamil Nadu, India, aimed at promoting financial inclusion and women's empowerment. Under this scheme, eligible couples receive financial assistance in the form of gold jewelry, such as thali (mangalsutra), as a means to support their wedding expenses. The scheme primarily targets economically disadvantaged families, providing them with a valuable asset to facilitate the marriage of their daughters. The gold jewelry distributed through Thalikku Thangam Thittam not only serves as a symbol of marital commitment but also acts as a form of financial security for the bride. For more information about Thalikku Thangam Thittam, you can visit the official Tamil Nadu government website or inquire at the nearest social welfare department office."]
+        },
+        {
+            "tag": "thalikku_thangam_thittam_eligibility",
+            "patterns": ["who is eligible for thalikku thangam thittam scheme?","who is eligible for thalikku thangam thittam","eligibility for thalikku thangam thittam scheme?","how do I qualify for thalikku thangam thittam scheme", "eligibility criteria for thalikku thangam thittam scheme"],
+            "responses": ["Economically backward families in Tamil Nadu are eligible for financial assistance under Thalikku Thangam Thittam. The scheme is specifically aimed at supporting the marriage of daughters from such families."]
+        },
+        {
+            "tag": "thalikku_thangam_thittam_application_process",
+            "patterns": ["Application process for Thalikku Thangam Thittam","how to apply for thalikku thangam thittam scheme", "how to apply for Thalikku Thangam Thittam", "apply for Thalikku Thangam Thittam"],
+            "responses": ["To apply for financial assistance under Thalikku Thangam Thittam, eligible families need to submit application forms along with necessary documents such as income proof, residence proof, and marriage-related documents to the social welfare department."]
+        },
+        {
+            "tag": "amma_baby_care_kit_scheme_about",
+            "patterns": ["tell me about amma baby care kit scheme","amma baby care kit","amma baby care kit scheme","baby care kit scheme", "about amma baby care kit scheme", "describe amma baby care kit scheme","about baby care kit scheme","Amma Baby Care Kit Scheme", "baby care kits", "newborn essentials assistance"],
+            "responses": ["Amma Baby Care Kit Scheme provides essential items for newborns to economically disadvantaged families."]
+        },
+        {
+            "tag": "amma_baby_care_kit_scheme_more_info",
+            "patterns": ["where to find more information about amma baby care kit scheme","give me more information about amma baby care kit scheme", "tell me more about amma baby care kit scheme","learn more about amma baby care kit scheme", "official website for amma baby care kit scheme", "more info about amma baby care kit scheme","more about amma baby care kit","more information about amma baby care kit scheme"],
+            "responses": ["The Amma Baby Kit Scheme is a welfare program launched by the Government of Tamil Nadu, India, with the aim of promoting maternal and child health. Under this initiative, new mothers receive a kit containing essential items for newborn care, including baby clothes, blankets, diapers, feeding bottles, and hygiene products. The scheme targets economically disadvantaged families, particularly those residing in rural and remote areas, to ensure that every newborn has access to basic necessities for their well-being. By providing these kits, the government aims to support mothers in caring for their infants during the crucial early months, thereby contributing to reducing infant mortality rates and improving overall maternal and child health outcomes in Tamil Nadu. For more information about Amma Baby Care Kit Scheme, you can visit the official Tamil Nadu government website or inquire at the nearest health department office."]
+        },
+        {
+            "tag": "amma_baby_care_kit_scheme_eligibility",
+            "patterns": ["who is eligible for amma baby care kit scheme?","who is eligible for amma baby care kit","eligibility for amma baby care kit scheme?","how do I qualify for amma baby care kit scheme", "eligibility criteria for amma baby care kit scheme"],
+            "responses": ["Economically disadvantaged families with newborns in Tamil Nadu are eligible for the Amma Baby Care Kit Scheme."]
+        },
+        {
+            "tag": "amma_baby_care_kit_scheme_application_process",
+            "patterns": ["Application process for Amma Baby Care Kit Scheme","how to apply for amma baby care kit", "how to apply for Amma Baby Care Kit Scheme", "apply for Amma Baby Care Kit Scheme"],
+            "responses": ["The distribution of baby care kits is usually done through health department officials or anganwadi workers. Eligible families can register for the scheme and receive the kits at designated distribution centers."]
+        },
+        {
+            "tag": "tamil_nadu_solar_energy_policy_about",
+            "patterns": ["tell me about tamilnadu solar energy scheme","solar energy","tamilnadu solar energy scheme","solar energy scheme", "about tamilnadu solar energy scheme", "describe tamilnadu solar energy scheme","about tamilnadu solar energy policy","Tamil Nadu Solar Energy Policy", "solar energy policy", "renewable energy scheme"],
+            "responses": ["Tamil Nadu Solar Energy Policy encourages the adoption of solar energy through various incentives and subsidies."]
+        },
+        {
+            "tag": "tamil_nadu_solar_energy_policy_more_info",
+            "patterns": ["where to find more information about tamilnadu solar energy scheme","give me more information about solar energy scheme","give me more information about tamilnadu solar energy scheme", "tell me more about solar energy scheme","learn more about tamilnadu solar energy scheme", "official website for tamilnadu solar energy scheme", "more info about tamilnadu solar energy scheme","more about tamilnadu solar energy","more information about tamilnadu solar energy scheme"],
+            "responses": ["Under this policy, incentives and subsidies are provided to encourage the adoption of solar photovoltaic (PV) systems for residential, commercial, industrial, and agricultural purposes. The state government also offers net metering arrangements, allowing consumers to sell excess solar power back to the grid. Additionally, Tamil Nadu has been investing in large-scale solar parks and facilitating solar rooftop installations to increase solar energy capacity. These initiatives aim to reduce dependence on fossil fuels, mitigate environmental impact, and contribute to achieving renewable energy targets set by the government. For more information about Tamil Nadu Solar Energy Policy, you can visit the official Tamil Nadu government website or inquire at the nearest energy department office."]
+        },
+        {
+            "tag": "tamil_nadu_solar_energy_policy_eligibility",
+            "patterns": ["who is eligible for tamilnadu solar energy scheme?","who is eligible for solar energy scheme","eligibility for tamilnadu solar energy scheme?","how do I qualify for tamilnadu solar energy scheme", "eligibility criteria for tamilnadu solar energy scheme"],
+            "responses": ["All residents, businesses, and organizations in Tamil Nadu are eligible to participate in the Tamil Nadu Solar Energy Policy."]
+        },
+        {
+            "tag": "tamil_nadu_solar_energy_policy_application_process",
+            "patterns": ["Application process for Tamil Nadu Solar Energy Policy", "how to apply for solar energy policy","how to apply for solar energy policy scheme","how to apply for tamilnadu solar energy policy","how to apply for Tamil Nadu Solar Energy Policy", "apply for Tamil Nadu Solar Energy Policy"],
+            "responses": ["To participate in the Tamil Nadu Solar Energy Policy, individuals, businesses, or organizations need to submit project proposals or apply for relevant incentives through the designated channels specified by the state government."]
+        },
+        {
+            "tag": "free_bicycle_scheme_about",
+            "patterns": ["tell me about free bicycle scheme","bicycle","bicycle scheme","free bicycle scheme","free bicycle", "about free bicycle scheme", "describe free bicycle scheme","about free bicycle policy","Free Bicycle Scheme", "bicycles for school students", "education promotion initiative"],
+            "responses": ["Free Bicycle Scheme provides free bicycles to school students to promote education and reduce dropout rates."]
+        },
+        {
+            "tag": "free_bicycle_scheme_more_info",
+            "patterns": ["where to find more information about free bicycle scheme","give me more information about free bicycle scheme","tell me more about free bicycle scheme","learn more about free bicycle scheme", "official website for free bicycle scheme", "more info about free bicycle scheme","more about free bicycle","more information about free bicycle scheme"],
+            "responses": ["These schemes typically target students from economically disadvantaged backgrounds who face challenges in accessing schools due to long distances. Under the program, eligible students receive bicycles free of charge, facilitating their daily commute to school and reducing dropout rates. The scheme not only promotes physical activity and health but also contributes to environmental sustainability by reducing reliance on motorized transportation. The distribution of free bicycles is often accompanied by awareness campaigns on road safety and the importance of education. These initiatives have been instrumental in enhancing school attendance and academic performance among students, particularly in remote and rural regions. For more information about Free Bicycle Scheme, you can visit the official Tamil Nadu government website or inquire at the nearest education department office."]
+        },
+        {
+            "tag": "free_bicycle_scheme_eligibility",
+            "patterns": ["who is eligible for free bicycle scheme?","who is eligible for free bicycle","eligibility for free bicycle scheme?","how do I qualify for free bicycle scheme", "eligibility criteria for free bicycle scheme"],
+            "responses": ["Students studying in government schools in Tamil Nadu are eligible for free bicycles under this scheme."]
+        },
+        {
+            "tag": "free_bicycle_scheme_application_process",
+            "patterns": ["Application process for Free Bicycle Scheme","how to apply for free bicycle", "how to apply for Free Bicycle Scheme", "apply for Free Bicycle Scheme"],
+            "responses": ["The distribution of free bicycles is usually organized through educational institutions. Eligible students need to register with their schools to receive bicycles."]
+        },
+        {
+            "tag": "types_of_schemes",
+            "patterns":["Different kinds of schemes","different types of schemes","types of schemes","tell me the various types of schemes available","tell me the various kinds of schemes available","give me some schemes types","give me the variety of schemes","tell me the variety of schemes","scheme types"],
+            "responses": ["Sure! Here are some various kinds of schemes:\n1.Welfare Schemes\n2.Employment Schemes\n3.Education Schemes\n4.Healthcare Schemes\n5.Rural Development Schemes\n6.Urban Development Schemes\n7.Environmental Conservation Schemes\n8.Financial Inclusion Schemes"]
+        },
+        {
+            "tag": "government_welfare_schemes",
+            "patterns": ["government welfare schemes","give me some government welfare schemes","tell me some government welfare schemes","suggest some government welfare schemes", "welfare schemes", "government assistance programs", "social welfare programs"],
+            "responses": ["Sure! Here are some government welfare schemes:\n1. Pradhan Mantri Jan Dhan Yojana (PMJDY)\n2. Pradhan Mantri Ujjwala Yojana (PMUY)\n3. Pradhan Mantri Awas Yojana (PMAY)\n4. National Social Assistance Programme (NSAP)\n5. Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)\n6. National Rural Livelihoods Mission (NRLM)\n7. Sarva Shiksha Abhiyan (SSA)\n8. Mid-Day Meal Scheme (MDMS)\n9. National Health Mission (NHM)\n10. Pradhan Mantri Matru Vandana Yojana (PMMVY)"]
+        },
+        {
+            "tag": "pradhan_mantri_awas_yojana_about",
+            "patterns": ["tell me about pmay scheme","pmay scheme","pmay", "about pmay scheme", "describe pmay scheme","Pradhan Mantri Awas Yojana (PMAY)","what is pmay scheme","tell me about pmay scheme", "affordable housing", "urban and rural poor"],
+            "responses": ["PMAY aims to provide affordable housing to all urban and rural poor by offering financial assistance for the construction or renovation of houses."]
+        },
+        {
+            "tag": "pradhan_mantri_awas_yojana_more_info",
+            "patterns": ["where to find more information about pmay scheme","give me more information about pmay scheme","tell me more about pmay scheme","learn more about pmay scheme", "official website for pmay scheme", "more info about pmay scheme","more about pmay","more information about pmay scheme","More information about Pradhan Mantri Awas Yojana","tell me some more information about pmay scheme", "where to find more info about PMAY"],
+            "responses": ["The Pradhan Mantri Awas Yojana (PMAY) is a flagship affordable housing scheme launched by the Government of India to provide affordable housing solutions to the urban and rural poor. Launched in 2015, PMAY aims to address the housing shortage in the country by offering financial assistance and incentives to eligible beneficiaries. Under this scheme, beneficiaries can avail of credit-linked subsidies or affordable home loans to either construct new houses, enhance existing ones, or buy ready-built homes. PMAY also targets specific demographic groups such as economically weaker sections, low-income groups, and middle-income groups. For more information about PMAY, you can visit the official PMAY website or inquire at Common Service Centers (CSCs)."]
+        },
+        {
+            "tag": "pradhan_mantri_awas_yojana_eligibility",
+            "patterns": ["who is eligible for pmay scheme?","who is eligible for pmay","eligibility for pmay scheme?","how do I qualify for pmay scheme", "eligibility criteria for pmay scheme","Eligibility criteria for Pradhan Mantri Awas Yojana", "who is eligible for PMAY", "how do I qualify for PMAY"],
+            "responses": ["The eligibility criteria vary for different components of PMAY. Generally, households without a pucca house are eligible."]
+        },
+        {
+            "tag": "pradhan_mantri_awas_yojana_application_process",
+            "patterns": ["Application process for pmay Scheme","how to apply for pmay", "how to apply for pmay Scheme", "apply for pmay Scheme","Application process for Pradhan Mantri Awas Yojana", "how to apply for PMAY", "apply for PMAY"],
+            "responses": ["Interested applicants can apply through the official PMAY website or visit Common Service Centers (CSCs) for assistance."]
+        },
+        {
+            "tag": "nsap_about",
+            "patterns": ["National Social Assistance Programme (NSAP)","give me about nsap scheme","nsap scheme","nsap","about nsap scheme","about nsap","tell me about nsap scheme","what is nsap scheme", "social security scheme", "financial assistance for the poor"],
+            "responses": ["NSAP provides financial assistance to the poor and vulnerable sections of society, including the elderly, widows, and persons with disabilities, to meet their minimum needs."]
+        },
+        {
+            "tag": "nsap_more_info",
+            "patterns": ["where to find more information about nsap scheme","give me more information about nsap scheme","tell me more about nsap scheme","learn more about nsap scheme", "official website for nsap scheme", "more info about nsap scheme","more about nsap","more information about nsap scheme","More information about NSAP","tell me some more information about nsap scheme", "where to find more info about NSAP"],
+            "responses":["The National Social Assistance Programme (NSAP) is a welfare scheme initiated by the Government of India to provide financial assistance to the elderly, widows, and persons with disabilities living below the poverty line. Launched in 1995, NSAP aims to ensure social security and financial support to the most vulnerable sections of society. The program consists of five main components: Indira Gandhi National Old Age Pension Scheme (IGNOAPS), Indira Gandhi National Widow Pension Scheme (IGNWPS), Indira Gandhi National Disability Pension Scheme (IGNDPS), National Family Benefit Scheme (NFBS), and Annapurna Scheme."]
+        },
+        {
+            "tag": "nsap_eligibility_criteria",
+            "patterns": ["who is eligible for nsap scheme?","who is eligible for nsap","eligibility for nsap scheme?","how do I qualify for nsap scheme", "eligibility criteria for nsap scheme","Eligibility criteria for NSAP", "who is eligible for NSAP", "how do I qualify for NSAP"],
+            "responses": ["Eligibility criteria vary for each scheme under NSAP. Generally, beneficiaries must belong to below poverty line (BPL) households and meet certain age or disability criteria."]
+        },
+        {
+            "tag": "nsap_application_process",
+            "patterns": ["Application process for nsap Scheme","how to apply for nsap", "how to apply for nsap Scheme", "apply for nsap Scheme","Application process for NSAP", "how to apply for NSAP", "apply for NSAP"],
+            "responses": ["Beneficiaries can apply for NSAP schemes through the local Gram Panchayat, Municipal Corporation, or relevant authorities. Application forms are available online and offline, and applicants need to submit necessary documents such as proof of identity, residence, and income."]
+        },
+        {
+            "tag": "mgnrega_about",
+            "patterns": ["Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)","give me about mgnrega scheme","mgnrega scheme","mgnrega","about mgnrega scheme","about mgnrega","what is mgnrega scheme","tell me about mgnrega scheme", "job guarantee scheme", "rural employment program"],
+            "responses": ["MGNREGA was enacted in 2005 with the objective of enhancing the livelihood security of rural households by providing at least 100 days of wage employment in a financial year to every rural household whose adult members volunteer to do unskilled manual work."]
+        },
+        {
+            "tag": "mgnrega_more_info",
+            "patterns": ["where to find more information about mgnrega scheme","give me more information about mgnrega scheme","tell me more about mgnrega scheme","learn more about mgnrega scheme", "official website for mgnrega scheme", "more info about mgnrega scheme","more about mgnrega","more information about mgnrega scheme","More information about MGNREGA","tell me some more information about mgnrega scheme", "where to find more info about MGNREGA"],
+            "responses": ["The Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) is a social security scheme launched by the Government of India in 2005. It guarantees the right to work by providing at least 100 days of wage employment in a financial year to every rural household whose adult members volunteer to do unskilled manual work. MGNREGA aims to enhance the livelihood security of rural households by providing them with employment opportunities and thereby preventing distress migration. The scheme focuses on creating sustainable rural infrastructure and promoting environmental sustainability. Through MGNREGA, rural households can access employment close to their homes, improving their economic condition and overall well-being while also contributing to rural development."]
+        },
+        {
+            "tag": "mgnrega_eligibility_criteria",
+            "patterns": ["who is eligible for mgnrega scheme?","who is eligible for mgnrega","eligibility for mgnrega scheme?","how do I qualify for mgnrega scheme", "eligibility criteria for mgnrega scheme","Eligibility criteria for MGNREGA", "who is eligible for MGNREGA", "how do I qualify for MGNREGA"],
+            "responses": ["All rural households whose adult members are willing to do unskilled manual work are eligible for MGNREGA employment. Priority is given to women, SC/ST households, and persons with disabilities."]
+        },
+        {
+            "tag": "mgnrega_application_process",
+            "patterns": ["Application process for mgnrega Scheme","how to apply for mgnrega", "how to apply for mgnrega Scheme", "apply for mgnrega Scheme","Application process for MGNREGA", "how to apply for MGNREGA", "apply for MGNREGA"],
+            "responses": ["Interested individuals can apply for MGNREGA employment through the local Gram Panchayat or online portals. Job cards are issued to eligible households, and work allocation is done based on demand for work in the local area."]
+        },
+        {
+            "tag": "nrlm_about",
+            "patterns": ["National Rural Livelihoods Mission (NRLM)","give me about nrlm scheme","nrlm scheme","nrlm","about nrlm scheme","about nrlm","tell me about nrlm scheme","what is nrlm scheme", "poverty alleviation program", "livelihood opportunities for rural poor"],
+            "responses": ["NRLM aims to reduce poverty by enabling the poor rural households to access gainful self-employment and skilled wage employment opportunities, leading to appreciable improvement in their livelihoods."]
+        },
+        {
+            "tag": "nrlm_more_info",
+            "patterns": ["where to find more information about nrlm scheme","give me more information about nrlm scheme","tell me more about nrlm scheme","learn more about nrlm scheme", "official website for nrlm scheme", "more info about nrlm scheme","more about nrlm","more information about nrlm scheme","More information about NRLM","tell me some more information about nrlm scheme", "where to find more info about NRLM"],
+            "responses": ["NRLM is a flagship program of the Ministry of Rural Development, Government of India, launched in 2011. It is implemented across all states and union territories with the aim of mobilizing rural poor households into self-help groups (SHGs) and their federations to provide them access to financial services, livelihood opportunities, and social entitlements."]
+        },
+        {
+            "tag": "nrlm_eligibility_criteria",
+            "patterns": ["who is eligible for nrlm scheme?","who is eligible for nrlm","eligibility for nrlm scheme?","how do I qualify for nrlm scheme", "eligibility criteria for nrlm scheme","Eligibility criteria for NRLM", "who is eligible for NRLM", "how do I qualify for NRLM"],
+            "responses": ["The NRLM primarily targets rural poor households, including women, Scheduled Castes (SCs), Scheduled Tribes (STs), and other marginalized sections of society. Eligibility criteria may vary slightly depending on the state or union territory."]
+        },
+        {
+            "tag": "nrlm_application_process",
+            "patterns": ["Application process for nrlm Scheme","how to apply for nrlm", "how to apply for nrlm Scheme", "apply for nrlm Scheme","Application process for NRLM", "how to apply for NRLM", "apply for NRLM"],
+            "responses": ["To benefit from NRLM, individuals can approach the nearest NRLM implementing agency or Gram Panchayat office. They can inquire about the formation of self-help groups (SHGs) and register themselves as members. SHG members can then avail of various benefits and livelihood opportunities offered by NRLM."]
+        },
+        {
+            "tag": "ssa_about",
+            "patterns": ["Sarva Shiksha Abhiyan (SSA)","give me about ssa scheme","ssa scheme","ssa","about ssa scheme","about ssa","what is ssa scheme","tell me about ssa scheme", "universal education program", "elementary education for all"],
+            "responses": ["SSA aims to provide quality elementary education to all children in the age group of 6 to 14 years, with a special focus on the girl child and children from disadvantaged groups."]
+        },
+        {
+            "tag": "ssa_more_info",
+            "patterns": ["where to find more information about ssa scheme","give me more information about ssa scheme","tell me more about ssa scheme","learn more about ssa scheme", "official website for ssa scheme", "more info about ssa scheme","more about ssa","more information about ssa scheme","More information about SSA","tell me some more information about ssa scheme", "where to find more info about SSA"],
+            "responses": ["SSA is an Indian Government flagship program for the achievement of Universalization of Elementary Education (UEE) in a time-bound manner, as mandated by the 86th Amendment to the Constitution of India making free and compulsory education to children between the ages of 6 to 14 a fundamental right."]
+        },
+        {
+            "tag": "ssa_eligibility_criteria",
+            "patterns": ["who is eligible for ssa scheme?","who is eligible for ssa","eligibility for ssa scheme?","how do I qualify for ssa scheme", "eligibility criteria for ssa scheme","Eligibility criteria for SSA", "who is eligible for SSA", "how do I qualify for SSA"],
+            "responses": ["All children in the age group of 6 to 14 years are eligible to benefit from SSA. Priority is given to children from marginalized communities, girls, and children with special needs to ensure inclusive education."]
+        },
+        {
+            "tag": "ssa_application_process",
+            "patterns": ["Application process for ssa Scheme","how to apply for ssa", "how to apply for ssa Scheme", "apply for ssa Scheme","Application process for SSA", "how to apply for SSA", "apply for SSA"],
+            "responses": ["There is no specific application process for SSA as it is implemented through government schools and educational authorities. Parents or guardians can enroll their children in nearby government schools where SSA programs are implemented."]
+        },
+        {
+            "tag": "mdms_about",
+            "patterns": ["Mid-Day Meal Scheme (MDMS)","mid day meal","mid day meal scheme","give me about mdms scheme","mdms scheme","mdms","MDMS","about mdms scheme","about mdms","what is mdms scheme","tell me about mdms scheme", "school feeding program", "nutrition for children"],
+            "responses": ["MDMS aims to improve the nutritional status of school-age children in government schools and promote attendance, retention, and performance by providing them with hot, cooked meals during school hours."]
+        },
+        {
+            "tag": "mdms_more_info",
+            "patterns": ["where to find more information about mdms scheme","give me more information about mdms scheme","tell me more about mdms scheme","learn more about mdms scheme", "official website for mdms scheme", "more info about mdms scheme","more about mdms","more information about mdms scheme","More information about MDMS","tell me some more information about mdms scheme", "where to find more info about MDMS"],
+            "responses": ["The Mid-Day Meal Scheme (MDMS) is a school meal program launched by the Government of India to address malnutrition and encourage school attendance among children. Started in 1995, the scheme provides free lunches to schoolchildren in government and government-aided primary and upper primary schools. The meals typically consist of locally sourced and nutritious food items such as rice, lentils, vegetables, and fruits. MDMS aims to improve the nutritional status of children, enhance their learning outcomes, and reduce dropout rates. By ensuring that children receive at least one nutritious meal a day, MDMS contributes to their overall growth and development, fostering a healthy and educated future generation."]
+        },
+        {
+            "tag": "mdms_eligibility_criteria",
+            "patterns": ["who is eligible for mdms scheme?","who is eligible for mdms","eligibility for mdms scheme?","how do I qualify for mdms scheme", "eligibility criteria for mdms scheme","Eligibility criteria for MDMS", "who is eligible for MDMS", "how do I qualify for MDMS"],
+            "responses": ["All children studying in government and government-aided schools are eligible to benefit from the Mid-Day Meal Scheme. There are no specific eligibility criteria."]
+        },
+        {
+            "tag": "mdms_application_process",
+            "patterns": ["Application process for mdms Scheme","how to apply for mdms", "how to apply for mdms Scheme", "apply for mdms Scheme","Application process for MDMS", "how to apply for MDMS", "apply for MDMS"],
+            "responses": ["There is no application process for parents or guardians to enroll their children in MDMS. Meals are provided directly to students in eligible schools during school hours."]
+        },
+        {
+            "tag": "nhm_about",
+            "patterns": ["National Health Mission (NHM)","give me about nhm scheme","nhm scheme","nhm","about nhm scheme","about nhm","what is nhm scheme","tell me about nhm scheme", "healthcare for all", "public health program"],
+            "responses": ["NHM aims to provide accessible, affordable, and quality healthcare to rural and urban populations, especially the vulnerable sections, through a network of healthcare facilities and outreach services."]
+        },
+        {
+            "tag": "nhm_more_info",
+            "patterns": ["who is eligible for nhm scheme?","who is eligible for nhm","eligibility for nhm scheme?","how do I qualify for nhm scheme", "eligibility criteria for nhm scheme","where to find more information about nhm scheme","give me more information about nhm scheme","tell me more about nhm scheme","learn more about nhm scheme", "official website for nhm scheme", "more info about nhm scheme","more about nhm","more information about nhm scheme","More information about NHM","tell me some more information about nhm scheme", "where to find more info about NHM"],
+            "responses": ["NHM is a centrally sponsored scheme launched in 2005 to address the health needs of underserved rural and urban populations in India. It aims to strengthen health systems, improve access to healthcare services, and reduce morbidity and mortality."]
+        },
+        {
+            "tag": "nhm_eligibility_criteria",
+            "patterns": ["Eligibility criteria for NHM", "who is eligible for NHM", "how do I qualify for NHM"],
+            "responses": ["NHM aims to provide healthcare services to all residents of India, especially focusing on vulnerable sections such as pregnant women, children, the elderly, and individuals from economically weaker sections."]
+        },
+        {
+            "tag": "nhm_application_process",
+            "patterns": ["Application process for nhm Scheme","how to apply for nhm", "how to apply for nhm Scheme", "apply for nhm Scheme","Application process for NHM", "how to apply for NHM", "apply for NHM"],
+            "responses": ["There is no specific application process for NHM as it operates through government healthcare facilities and outreach programs. Citizens can access NHM services by visiting primary health centers, community health centers, or availing services through outreach programs conducted by health workers."]
+        },
+        {
+            "tag": "pmmvy_about",
+            "patterns": ["Pradhan Mantri Matru Vandana Yojana (PMMVY)","give me about pmmvy scheme","pmmvy scheme","pmmvy","about pmmvy scheme","about pmmvy","tell me about pmmvy scheme","what is pmmvy scheme", "maternity benefit program", "financial assistance for pregnant women"],
+            "responses": ["PMMVY provides financial assistance to pregnant women for their first live birth to compensate for wage loss and ensure adequate nutrition during pregnancy and lactation."]
+        },
+        {
+            "tag": "pmmvy_more_info",
+            "patterns": ["where to find more information about pmmvy scheme","give me more information about pmmvy scheme","tell me more about pmmvy scheme","learn more about pmmvy scheme", "official website for pmmvy scheme", "more info about pmmvy scheme","more about pmmvy","more information about pmmvy scheme","More information about PMMVY","tell me some more information about pmmvy scheme", "where to find more info about PMMVY"],
+            "responses": ["PMMVY is a maternity benefit program implemented by the Ministry of Women and Child Development, Government of India. It aims to provide partial wage compensation to pregnant women and ensure adequate nutrition during pregnancy and lactation."]
+        },
+        {
+            "tag": "pmmvy_eligibility_criteria",
+            "patterns": ["who is eligible for pmmvy scheme?","who is eligible for pmmvy","eligibility for pmmvy scheme?","how do I qualify for pmmvy scheme", "eligibility criteria for pmmvy scheme","Eligibility criteria for PMMVY", "who is eligible for PMMVY", "how do I qualify for PMMVY"],
+            "responses": ["Pregnant women above 19 years of age are eligible for PMMVY for their first live birth. They must be residing in India and belong to a household eligible under the National Food Security Act (NFSA) or State/UT-specific criteria."]
+        },
+        {
+            "tag": "pmmvy_application_process",
+            "patterns": ["Application process for pmmvy Scheme","how to apply for pmmvy", "how to apply for pmmvy Scheme", "apply for pmmvy Scheme","Application process for PMMVY", "how to apply for PMMVY", "apply for PMMVY"],
+            "responses": ["To apply for PMMVY, eligible pregnant women need to register themselves at the Anganwadi center or with the concerned authorities in their area. They must submit the required documents such as identity proof, pregnancy certificate, and bank account details."]
+        },
+        {
+            "tag": "healthcare_schemes",
+            "patterns": ["give me some indian government healthcare schemes","health schemes", "list some indian healthcare schemes","indian health services","indian health support","indian medical services","healthcare schemes","health services","health support"],
+            "responses": ["Sure! Here are some central government healthcare schemes:\n1. Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)\n2. Pradhan Mantri Jan Aushadhi Yojana (PMJAY)\n3. Mission Indradhanush\n4. Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA)\n5. Pradhan Mantri National Dialysis Programme(PMNDP)"]
+        },
+        {
+            "tag": "ab_pmjay_about",
+            "patterns": ["Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)","give me about ab-pmjay scheme","ab-pmjay scheme","ab-pmjay","about ab-pmjay scheme","about ab-pmjay","what is ab-pmjay scheme","tell me about ab-pmjay scheme", "What is AB-PMJAY?", "Tell me about AB-PMJAY"],
+            "responses": ["AB-PMJAY is a flagship scheme of the Government of India that aims to provide health insurance coverage to economically vulnerable families. It provides coverage of up to ₹5 lakh per family per year for secondary and tertiary care hospitalization."]
+        },
+        {
+            "tag": "ab_pmjay_more_info",
+            "patterns": ["More information about AB-PMJAY","where to find more information about ab-pmjay scheme","give me more information about ab-pmjay scheme","tell me more about ab-pmjay scheme","learn more about ab-pmjay scheme", "official website for ab-pmjay scheme", "more info about ab-pmjay scheme","more about ab-pmjay","more information about ab-pmjay scheme","More information about ab-pmjay","tell me some more information about ab-pmjay scheme", "where to find more info about ab-pmjay", "Where can I find more info about AB-PMJAY?"],
+            "responses": ["AB-PMJAY is implemented to cover around 10.74 crore families identified as deprived rural families and occupational categories of urban workers' families, as per the latest Socio-Economic Caste Census (SECC) data."]
+        },
+        {
+            "tag": "ab_pmjay_eligibility_criteria",
+            "patterns": ["who is eligible for ab-pmjay scheme?","who is eligible for ab-pmjay","eligibility for ab-pmjay scheme?","how do I qualify for ab-pmjay scheme", "eligibility criteria for ab-pmjay scheme","Eligibility criteria for ab-pmjay", "who is eligible for AB-PMJAY", "how do I qualify for ab-pmjay","Eligibility criteria for AB-PMJAY", "Who is eligible for AB-PMJAY?"],
+            "responses": ["The scheme covers families identified as deprived rural families and occupational categories of urban workers' families, as per the latest Socio-Economic Caste Census (SECC) data."]
+        },
+        {
+            "tag": "ab_pmjay_application_process",
+            "patterns": ["Application process for AB-PMJAY","Application process for ab-pmjay Scheme","how to apply for ab-pmjay", "how to apply for ab-pmjay Scheme", "apply for ab-pmjay Scheme","Application process for ab-pmjay", "how to apply for AB-PMJAY", "apply for AB-PMJAY", "How to apply for AB-PMJAY?"],
+            "responses": ["Beneficiaries are identified through the SECC database and provided with a Golden Record card. They can also check their eligibility and enroll online through the official website or at designated Common Service Centers (CSCs)."]
+        },
+        {
+            "tag": "pmjay_about",
+            "patterns": ["Pradhan Mantri Jan Aushadhi Yojana (PMJAY)","give me about pmjay scheme","pmjay scheme","pmjay","about pmjay scheme","about pmjay","what is pmjay scheme","tell me about pmjay scheme", "What is PMJAY?", "Tell me about PMJAY"],
+            "responses": ["PMJAY aims to make quality generic medicines accessible and affordable for all citizens. Under this scheme, generic medicines are made available through Jan Aushadhi Kendras at significantly lower prices compared to market rates."]
+        },
+        {
+            "tag": "pmjay_more_info",
+            "patterns": ["More information about PMJAY","where to find more information about pmjay scheme","give me more information about pmjay scheme","tell me more about pmjay scheme","learn more about pmjay scheme", "official website for pmjay scheme", "more info about pmjay scheme","more about pmjay","more information about pmjay scheme","More information about PMJAY","tell me some more information about pmjay scheme", "where to find more info about PMJAY", "Where can I find more info about PMJAY?"],
+            "responses": ["PMJAY primarily targets poor and marginalized families identified through the Socio-Economic Caste Census (SECC) database, offering coverage of up to Rs. 5 lakh per family per year. By ensuring access to quality healthcare services without financial burden, PMJAY strives to improve health outcomes, reduce out-of-pocket healthcare expenses, and promote universal health coverage across India. PMJAY allows all citizens, regardless of income level, to benefit from purchasing generic medicines from Jan Aushadhi Kendras."]
+        },
+        {
+            "tag": "pmjay_eligibility_criteria",
+            "patterns": ["who is eligible for pmjay scheme?","who is eligible for pmjay","eligibility for pmjay scheme?","how do I qualify for pmjay scheme", "eligibility criteria for pmjay scheme","Eligibility criteria for PMJAY", "who is eligible for PMJAY", "how do I qualify for PMJAY","Eligibility criteria for PMJAY", "Who is eligible for PMJAY?"],
+            "responses": ["All citizens can benefit from PMJAY by purchasing generic medicines from Jan Aushadhi Kendras."]
+        },
+        {
+            "tag": "pmjay_application_process",
+            "patterns": ["Application process for PMJAY","Application process for pmjay Scheme","how to apply for pmjay", "how to apply for pmjay Scheme", "apply for pmjay Scheme","Application process for PMJAY", "how to apply for PMJAY", "apply for PMJAY", "How to apply for PMJAY?"],
+            "responses": ["Citizens can visit their nearest Jan Aushadhi Kendra and purchase generic medicines after consulting with the pharmacist. The process is simple and does not require any formal application."]
+        },
+        {
+            "tag": "mission_indradhanush_about",
+            "patterns": ["Mission Indradhanush","give me about mission indradhanush scheme","mission indradhanush scheme","mission indradhanush","about mission indradhanush scheme","about mission indradhanush","what is mission indradhanush scheme","tell me about mission indradhanush scheme", "What is Mission Indradhanush?", "Tell me about Mission Indradhanush"],
+            "responses": ["Mission Indradhanush aims to immunize all children under the age of 2 years and pregnant women against seven vaccine-preventable diseases. It targets areas with low immunization coverage to ensure that no child or pregnant woman misses out on vaccination."]
+        },
+        {
+            "tag": "mission_indradhanush_more_info",
+            "patterns": ["More information about Mission Indradhanush","where to find more information about mission indradhanush scheme","give me more information about mission indradhanush scheme","tell me more about mission indradhanush scheme","learn more about mission indradhanush scheme", "official website for mission indradhanush scheme", "more info about mission indradhanush scheme","more about mission indradhanush","more information about mission indradhanush scheme","More information about mission indradhanush","tell me some more information about mission indradhanush scheme", "where to find more info about mission indradhanush", "Where can I find more info about Mission Indradhanush?"],
+            "responses": ["Mission Indradhanush is a nationwide immunization program focusing on children under 2 years old and pregnant women. It aims to increase immunization coverage in low-performing areas.Mission Indradhanush is an immunization program launched by the Government of India in 2014 with the aim of providing universal immunization coverage to all children and pregnant women in India. The mission targets unvaccinated or partially vaccinated children and pregnant women in rural and urban areas, particularly in high-risk districts, to prevent vaccine-preventable diseases such as polio, measles, tetanus, tuberculosis, and hepatitis B. Through intensified immunization drives, awareness campaigns, and innovative strategies, Mission Indradhanush aims to achieve and sustain high immunization coverage rates, thereby reducing childhood morbidity and mortality rates."]
+        },
+        {
+            "tag": "mission_indradhanush_eligibility_criteria",
+            "patterns": ["Eligibility criteria for Mission Indradhanush","who is eligible for mission indradhanush scheme?","who is eligible for mission indradhanush","eligibility for mission indradhanush scheme?","how do I qualify for mission indradhanush scheme", "eligibility criteria for mission indradhanush scheme","Eligibility criteria for MISSION INDRADHANUSH", "who is eligible for MISSION INDRADHANUSH", "how do I qualify for MISSION INDRADHANUSH", "Who is eligible for Mission Indradhanush?"],
+            "responses": ["All children under the age of 2 years and pregnant women are eligible for Mission Indradhanush immunization against seven vaccine-preventable diseases."]
+        },
+        {
+            "tag": "mission_indradhanush_application_process",
+            "patterns": ["Application process for Mission Indradhanush","Application process for mission indradhanush Scheme","how to apply for mission indradhanush", "how to apply for mission indradhanush Scheme", "apply for mission indradhanush Scheme","Application process for MISSION INDRADHANUSH", "how to apply for MISSION INDRADHANUSH", "apply for MISSION INDRADHANUSH", "How to apply for Mission Indradhanush?"],
+            "responses": ["Mission Indradhanush immunization drives are conducted in identified areas. Parents or guardians of children under 2 years old and pregnant women can visit the vaccination centers during the specified immunization rounds to avail the services."]
+        },
+        {
+            "tag": "pmsma_about",
+            "patterns": ["Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA)","give me about pmsma scheme","pmsma scheme","pmsma","about pmsma scheme","about pmsma","what is pmsma scheme","tell me about pmsma scheme", "What is PMSMA?", "Tell me about PMSMA"],
+            "responses": ["PMSMA is a program launched by the Government of India to provide comprehensive antenatal care to pregnant women on the 9th of every month. It aims to ensure safe motherhood and reduce maternal mortality rates."]
+        },
+        {
+            "tag": "pmsma_more_info",
+            "patterns": ["More information about PMSMA","where to find more information about pmsma scheme","give me more information about pmsma scheme","tell me more about pmsma scheme","learn more about pmsma scheme", "official website for pmsma scheme", "more info about pmsma scheme","more about pmsma","more information about pmsma scheme","More information about PMSMA","tell me some more information about pmsma scheme", "where to find more info about PMSMA", "Where can I find more info about PMSMA?"],
+            "responses": ["The Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA) is a health initiative launched by the Government of India to provide comprehensive antenatal care to pregnant women across the country. Launched in 2016, PMSMA aims to reduce maternal and infant mortality rates by ensuring timely and quality prenatal check-ups for pregnant women. Under this scheme, pregnant women are encouraged to visit designated healthcare facilities on the 9th of every month, where they receive free antenatal check-ups and diagnostic tests. PMSMA provides antenatal services to pregnant women on the 9th of every month. The services include antenatal check-ups, diagnostic tests, and counselling, aiming to reduce maternal and infant mortality rates."]
+        },
+        {
+            "tag": "pmsma_eligibility_criteria",
+            "patterns": ["Eligibility criteria for PMSMA","who is eligible for pmsma scheme?","who is eligible for pmsma","eligibility for pmsma scheme?","how do I qualify for pmsma scheme", "eligibility criteria for pmsma scheme","Eligibility criteria for PMSMA", "who is eligible for PMSMA", "how do I qualify for PMSMA", "Who is eligible for PMSMA?"],
+            "responses": ["All pregnant women are eligible for the Pradhan Mantri Surakshit Matritva Abhiyan, which provides antenatal services on the 9th of every month."]
+        },
+        {
+            "tag": "pmsma_application_process",
+            "patterns": ["Application process for PMSMA","Application process for pmsma Scheme","how to apply for pmsma", "how to apply for pmsma Scheme", "apply for pmsma Scheme","Application process for PMSMA", "how to apply for PMSMA", "apply for PMSMA", "How to apply for PMSMA?"],
+            "responses": ["Pregnant women can avail antenatal care services under PMSMA by visiting designated healthcare facilities on the 9th of every month. No formal application process is required."]
+        },
+        {
+            "tag": "national_dialysis_programme_about",
+            "patterns": ["Pradhan Mantri National Dialysis Programme","give me about pmndp scheme","pmndp scheme","pmndp","about pmndp scheme","about pmndp","what is pmndp scheme","tell me about pmndp scheme", "What is National Dialysis Programme?", "Tell me about National Dialysis Programme"],
+            "responses": ["The Pradhan Mantri National Dialysis Programme aims to provide free dialysis services to patients suffering from end-stage renal diseases (ESRD) at government hospitals and empaneled private hospitals across India."]
+        },
+        {
+            "tag": "national_dialysis_programme_more_info",
+            "patterns": ["More information about National Dialysis Programme","where to find more information about pmndp scheme","give me more information about pmndp scheme","tell me more about pmndp scheme","learn more about pmndp scheme", "official website for pmndp scheme", "more info about pmndp scheme","more about pmndp","more information about pmndp scheme","More information about PMNDP","tell me some more information about pmndp scheme", "where to find more info about PMNDP", "Where can I find more info about National Dialysis Programme?"],
+            "responses": ["The National Dialysis Programme offers free dialysis services to patients with ESRD at government and empaneled private hospitals, ensuring access to essential healthcare services."]
+        },
+        {
+            "tag": "national_dialysis_programme_eligibility_criteria",
+            "patterns": ["Eligibility criteria for National Dialysis Programme","who is eligible for pmndp scheme?","who is eligible for pmndp","eligibility for pmndp scheme?","how do I qualify for pmndp scheme", "eligibility criteria for pmndp scheme","Eligibility criteria for PMNDP", "who is eligible for PMNDP", "how do I qualify for PMNDP", "Who is eligible for National Dialysis Programme?"],
+            "responses": ["Patients suffering from end-stage renal diseases (ESRD) are eligible for free dialysis services under the Pradhan Mantri National Dialysis Programme at government and empaneled private hospitals."]
+        },
+        {
+            "tag": "national_dialysis_programme_application_process",
+            "patterns": ["Application process for National Dialysis Programme","Application process for pmndp Scheme","how to apply for pmndp", "how to apply for pmndp Scheme", "apply for pmndp Scheme","Application process for PMNDP", "how to apply for PMNDP", "apply for PMNDP", "How to apply for National Dialysis Programme?"],
+            "responses": ["Patients suffering from end-stage renal diseases (ESRD) can avail free dialysis services at government and empaneled private hospitals by visiting the dialysis centers and undergoing necessary medical evaluations."]
+        },
+        {
+            "tag": "tamilnadu_healthcare_schemes",
+            "patterns": ["give me some tamilnadu government healthcare schemes", "list some tamilnadu healthcare schemes","tell me some tamilnadu healthcare schemes","tamilnadu health schemes","tamilnadu healthcare schemes","tamilnadu health services","tamilnadu health support","tamilnadu medical services"],
+            "responses": ["Sure! Here are some tamilnadu government healthcare schemes:\n1. Chief minister comprehensive health insurance scheme(CMCHIS).\n2. Annal amma annathin kural"]
+        },
+        {
+            "tag": "chief_minister_comprehensive_health_insurance_scheme_about",
+            "patterns": ["Chief Minister Comprehensive Health Insurance Scheme","give me about cmchis scheme","cmchis scheme","cmchis","about cmchis scheme","about cmchis","what is cmchis scheme","tell me about cmchis scheme", "What is the Chief Minister Comprehensive Health Insurance Scheme?", "Tell me about the Chief Minister Comprehensive Health Insurance Scheme"],
+            "responses": ["The Chief Minister Comprehensive Health Insurance Scheme (CMCHIS) is a healthcare initiative launched by the Government of Tamil Nadu. Under this scheme, eligible beneficiaries receive cashless treatment for specified medical and surgical procedures at empanelled hospitals. The scheme aims to provide financial protection to vulnerable families against high medical expenses and ensure access to quality healthcare services."]
+        },
+        {
+            "tag": "chief_minister_health_insurance_scheme_more_info",
+            "patterns": ["More information about Chief Minister Comprehensive Health Insurance Scheme","where to find more information about cmchis scheme","give me more information about cmchis scheme","tell me more about cmchis scheme","learn more about cmchis scheme", "official website for cmchis scheme", "more info about cmchis scheme","more about cmchis","more information about cmchis scheme","More information about CMCHIS","tell me some more information about cmchis scheme", "where to find more info about CMCHIS", "Where can I find more info about the Chief Minister Comprehensive Health Insurance Scheme?"],
+            "responses": ["The Chief Minister Comprehensive Health Insurance Scheme provides coverage for various medical procedures, including surgeries, consultations, diagnostic tests, and hospitalization expenses. The scheme aims to improve healthcare accessibility and reduce out-of-pocket expenditure for beneficiaries. Detailed information about the scheme's benefits, coverage, and empanelled hospitals is available on the official website of the Tamil Nadu Health Department."]
+        },
+        {
+            "tag": "chief_minister_comprehensive_health_insurance_scheme_eligibility_criteria",
+            "patterns": ["Eligibility criteria for Chief Minister Comprehensive Health Insurance Scheme","who is eligible for cmchis scheme?","who is eligible for Chief Minister Comprehensive Health Insurance","eligibility for cmchis scheme?","how do I qualify for cmchis scheme", "eligibility criteria for cmchis scheme","Eligibility criteria for CMCHIS", "who is eligible for CMCHIS", "how do I qualify for CMCHIS", "Who is eligible for the Chief Minister Comprehensive Health Insurance Scheme?"],
+            "responses": ["Families holding a valid Tamil Nadu Public Distribution System (TNPDS) card are eligible for the Chief Minister Comprehensive Health Insurance Scheme. Additionally, families identified as 'Priority Households' under the TNPDS are automatically covered under the scheme."]
+        },
+        {
+            "tag": "chief_minister_comprehensive_health_insurance_scheme_application_process",
+            "patterns": ["Application process for Chief Minister Comprehensive Health Insurance Scheme","Application process for Chief Minister Comprehensive Health Insurance Scheme","how to apply for Chief Minister Comprehensive Health Insurance", "how to apply for cmchis Scheme", "apply for cmchis Scheme","Application process for CMCHIS", "how to apply for CMCHIS", "apply for CMCHIS", "How can I apply for the Chief Minister Comprehensive Health Insurance Scheme?"],
+            "responses": ["There is no separate application process for the Chief Minister Comprehensive Health Insurance Scheme. Eligible families are enrolled in the scheme based on their inclusion in the Tamil Nadu Public Distribution System (TNPDS) database. The scheme automatically covers eligible beneficiaries without the need for individual application."]
+        },
+        {
+            "tag": "annal_amma_annathin_kural_about",
+            "patterns": ["Annal Amma Annathin Kural","give me about Annal Amma Annathin Kural scheme","Annal Amma Annathin Kural scheme","about Annal Amma Annathin Kural scheme","about Annal Amma Annathin Kural","what is Annal Amma Annathin Kural scheme","tell me about Annal Amma Annathin Kural scheme", "What is Annal Amma Annathin Kural?", "Tell me about Annal Amma Annathin Kural"],
+            "responses": ["Annal Amma Annathin Kural, meaning 'Mother's Voice, the Sound of Food' in Tamil, is a nutritious meal scheme initiated by the Government of Tamil Nadu. Under this scheme, pregnant and lactating women, as well as children under the age of six, receive supplementary nutrition to address malnutrition and promote maternal and child health."]
+        },
+        {
+            "tag": "annal_amma_annathin_kural_more_info",
+            "patterns": ["More information about Annal Amma Annathin Kural","where to find more information about Annal Amma Annathin Kural scheme","give me more information about Annal Amma Annathin Kural scheme","tell me more about Annal Amma Annathin Kural scheme","learn more about Annal Amma Annathin Kural scheme", "official website for Annal Amma Annathin Kural scheme", "more info about Annal Amma Annathin Kural scheme","more about Annal Amma Annathin Kural","more information about Annal Amma Annathin Kural scheme","More information about Annal Amma Annathin Kural","tell me some more information about Annal Amma Annathin Kural scheme", "where to find more info about Annal Amma Annathin Kural", "Where can I find more info about Annal Amma Annathin Kural?"],
+            "responses": ["Annal Amma Annathin Kural provides supplementary nutrition in the form of nutrient-rich food items such as milk, eggs, and fortified cereals to pregnant and lactating women, as well as young children. The scheme aims to improve nutritional status, prevent malnutrition-related complications, and promote healthy growth and development among beneficiaries."]
+        },
+        {
+            "tag": "annal_amma_annathin_kural_eligibility_criteria",
+            "patterns": ["Eligibility criteria for Annal Amma Annathin Kural","who is eligible for Annal Amma Annathin Kural scheme?","who is eligible for Annal Amma Annathin Kural","eligibility for Annal Amma Annathin Kural scheme?","how do I qualify for Annal Amma Annathin Kural scheme", "eligibility criteria for Annal Amma Annathin Kural scheme","Eligibility criteria for Annal Amma Annathin Kural", "who is eligible for Annal Amma Annathin Kural", "how do I qualify for Annal Amma Annathin Kural", "Who is eligible for Annal Amma Annathin Kural?"],
+            "responses": ["Pregnant and lactating women, as well as children under the age of six, are eligible for the Annal Amma Annathin Kural scheme. The scheme primarily targets vulnerable populations to address malnutrition and improve maternal and child health outcomes."]
+        },
+        {
+            "tag": "annal_amma_annathin_kural_application_process",
+            "patterns": ["Application process for Annal Amma Annathin Kural","Application process for Annal Amma Annathin Kural Scheme","how to apply for Annal Amma Annathin Kural", "how to apply for Annal Amma Annathin Kural Scheme", "apply for Annal Amma Annathin Kural Scheme","Application process for Annal Amma Annathin Kural", "how to apply for Annal Amma Annathin Kural", "apply for Annal Amma Annathin Kural", "How can I apply for Annal Amma Annathin Kural?"],
+            "responses": ["There is no specific application process for the Annal Amma Annathin Kural scheme. Eligible beneficiaries are identified through various outreach programs and health facilities. Pregnant women and mothers of children under six years old can avail of the scheme's benefits by visiting anganwadi centers or health centers."]
+        },
+        {
+            "tag": "educational_schemes",
+            "patterns": ["give me some government educational schemes","give me some indian educational schemes","indian educational schemes","government educational schemes", "list some educational schemes","educational schemes","educational support","education"],
+            "responses": ["Sure! Here are some government educational schemes:\n1.Sarva Shiksha Abhiyan (SSA)\n2.Rashtriya Madhyamik Shiksha Abhiyan (RMSA)\n3.Mid-Day Meal Scheme\n4.Pradhan Mantri Vidya Lakshmi Portal\n5.National Means Cum Merit Scholarship (NMMS)"]
+        },
+        {
+            "tag": "rmsa_about",
+            "patterns": ["Rashtriya Madhyamik Shiksha Abhiyan (RMSA)","give me about rmsa scheme","rmsa scheme","rmsa","about rmsa scheme","about rmsa","what is rmsa scheme","tell me about rmsa scheme","What is RMSA?","Tell me about Rashtriya Madhyamik Shiksha Abhiyan"],
+            "responses": ["Rashtriya Madhyamik Shiksha Abhiyan (RMSA) is a centrally sponsored scheme launched in 2009 by the Government of India to enhance secondary education. It aims to improve access, equity, and quality in secondary education by providing infrastructure, teacher recruitment, and vocational education programs."]
+        },
+        {
+            "tag": "rmsa_more_info",
+            "patterns": ["More information about RMSA","where to find more information about rmsa scheme","give me more information about rmsa scheme","tell me more about rmsa scheme","learn more about rmsa scheme", "official website for rmsa scheme", "more info about rmsa scheme","more about rmsa","more information about rmsa scheme","More information about RMSA","tell me some more information about rmsa scheme", "where to find more info about rmsa","Where can I find more info about Rashtriya Madhyamik Shiksha Abhiyan?"],
+            "responses": ["RMSA focuses on providing infrastructure support, including construction of classrooms, laboratories, libraries, and computer rooms. It also promotes the appointment of additional teachers, in-service teacher training, and curriculum reforms to strengthen secondary education."]
+        },
+        {
+            "tag": "mdm_about",
+            "patterns": ["Mid-Day Meal Scheme","give me about mdm scheme","mdm scheme","mdm","about mdm scheme","about mdm","what is mdm scheme","tell me about mdm scheme", "What is MDM?","What is Mid-Day Meal Scheme?","about mid-day meal scheme","Tell me about the Mid-Day Meal Scheme"],
+            "responses": ["The Mid-Day Meal Scheme is a school meal program initiated by the Government of India in the 1990s. It aims to address malnutrition, increase school attendance, and improve learning outcomes by providing free meals to schoolchildren in government and government-aided schools."]
+        },
+        {
+            "tag": "mdm_more_info",
+            "patterns": ["More information about Mid-Day Meal Scheme","tell me more information about mid-day meal scheme","where to find more information about mdm scheme","give me more information about mdm scheme","tell me more about mdm scheme","learn more about mdm scheme", "official website for mdm scheme", "more info about mdm scheme","more about mdm","more information about mdm scheme","More information about MDM","tell me some more information about mdm scheme", "where to find more info about MDM","Where can I find more info about the Mid-Day Meal Scheme?"],
+            "responses": ["Under the Mid-Day Meal Scheme, nutritious meals are provided to students during school hours on all working days. The scheme also emphasizes the involvement of local communities, NGOs, and parent-teacher associations in monitoring and implementing the program effectively."]
+        },
+        {
+            "tag": "pmvl_about",
+            "patterns": ["Pradhan Mantri Vidya Lakshmi Portal","give me about pmvl scheme","pmvl scheme","pmvl","about pmvl scheme","about pmvl","what is pmvl scheme","tell me about pmvl scheme", "What is PMVL?","What is the Pradhan Mantri Vidya Lakshmi Portal?","about pradhan mantri vidya lakshmi portal","Tell me about the Pradhan Mantri Vidya Lakshmi Portal"],
+            "responses": ["Pradhan Mantri Vidya Lakshmi Portal is an online platform launched in 2015 to facilitate education loan applications and scholarships for students in India. It provides a single window for students to access various education financing options offered by banks and government schemes."]
+        },
+        {
+            "tag": "pmvl_more_info",
+            "patterns": ["More information about Pradhan Mantri Vidya Lakshmi Portal","where to find more information about pmvl scheme","give me more information about pmvl scheme","tell me more about pmvl scheme","learn more about pmvl scheme", "official website for pmvl scheme", "more info about pmvl scheme","more about pmvl","more information about pmvl scheme","More information about PMVL","tell me some more information about pmvl scheme", "where to find more info about PMVL","Where can I find more info about the Pradhan Mantri Vidya Lakshmi Portal?"],
+            "responses": ["The Pradhan Mantri Vidya Lakshmi Portal enables students to search and apply for education loans and scholarships from multiple banks and financial institutions. It also offers information about eligibility criteria, interest rates, and repayment options to help students make informed decisions about financing their education."]
+        },
+        {
+            "tag": "nmms_about",
+            "patterns": ["National Means Cum Merit Scholarship","give me about nmms scheme","nmms scheme","nmms","about nmms scheme","about nmms","what is nmms scheme","tell me about nmms scheme","What is NMMS?","Tell me about the National Means Cum Merit Scholarship"],
+            "responses": ["The National Means Cum Merit Scholarship (NMMS) is a centrally sponsored scheme initiated in 2008 by the Government of India. It aims to support meritorious students from economically weaker sections by providing scholarships to encourage them to continue their education beyond the secondary level."]
+        },
+        {
+            "tag": "nmms_more_info",
+            "patterns": ["More information about NMMS","where to find more information about nmms scheme","give me more information about nmms scheme","tell me more about nmms scheme","learn more about nmms scheme", "official website for nmms scheme", "more info about nmms scheme","more about nmms","more information about nmms scheme","More information about NMMS","tell me some more information about nmms scheme", "where to find more info about NMMS","Where can I find more info about the National Means Cum Merit Scholarship?"],
+            "responses": ["NMMS scholarships are awarded to students based on their performance in a national-level examination conducted by the respective state governments. The scholarships cover a portion of the students' educational expenses, including tuition fees, books, and other incidental charges."]
+        },
+        {
+            "tag": "tamilnadu_educational_schemes",
+            "patterns": ["give me some tamilnadu government educational schemes","tell me some tamilnadu government educational schemes","tamilnadu government educational schemes", "list some tamilnadu educational schemes","tamilnadu educational schemes","tamilnadu educational support","tamilnadu education"],
+            "responses": ["Sure! Here are some tamilnadu government educational schemes:\n1.Samacheer Kalvi (Uniform Education System)\n2.Free Laptop Scheme\n3.Amma Matriculation Schools\n4.Kalvi Tholaikatchi (Education Television)\n5.Nutritious Noon Meal Scheme"]
+        },
+        {
+            "tag": "samacheer_kalvi_about",
+            "patterns": ["Samacheer Kalvi","give me about samacheer kalvi scheme","samacheer kalvi scheme","samacheer kalvi","about samacheer kalvi scheme","about samacheer kalvi","what is samacheer kalvi scheme","tell me about samacheer kalvi scheme", "What is Samacheer Kalvi?", "Tell me about Samacheer Kalvi"],
+            "responses": ["Samacheer Kalvi, meaning 'Uniform Education System' in Tamil, is an educational initiative implemented in the state of Tamil Nadu, India. It aims to provide standardized education to all students by revising the syllabus and textbooks for classes from 1 to 12. The system intends to ensure uniformity in curriculum and quality of education across schools."]
+        },
+        {
+            "tag": "samacheer_kalvi_more_info",
+            "patterns": ["More information about Samacheer Kalvi","More information about samacheer kalvi","where to find more information about samacheer kalvi scheme","give me more information about samacheer kalvi scheme","tell me more about samacheer kalvi scheme","learn more about samacheer kalvi scheme", "official website for samacheer kalvi scheme", "more info about samacheer kalvi scheme","more about samacheer kalvi","more information about samacheer kalvi scheme","More information about SAMACHEER KALVI","tell me some more information about samacheer kalvi scheme", "where to find more info about SAMACHEER KALVI", "Where can I find more info about Samacheer Kalvi?"],
+            "responses": ["Samacheer Kalvi was introduced in Tamil Nadu with the aim of reducing disparities in the quality of education among different schools and ensuring uniformity in curriculum delivery. The system incorporates elements from the National Curriculum Framework and aims to make learning more interactive and application-oriented. It underwent several revisions and updates to address concerns and improve its effectiveness in meeting educational objectives."]
+        },
+        {
+            "tag": "samacheer_kalvi_eligibility_criteria",
+            "patterns": ["Eligibility criteria for Samacheer Kalvi","who is eligible for samacheer kalvi scheme?","who is eligible for samacheer kalvi","eligibility for samacheer kalvi scheme?","how do I qualify for samacheer kalvi scheme", "eligibility criteria for samacheer kalvi scheme","Eligibility criteria for SAMACHEER KALVI", "who is eligible for SAMACHEER KALVI", "how do I qualify for SAMACHEER KALVI", "Who is eligible for Samacheer Kalvi?"],
+            "responses": ["All students studying in classes 1 to 12 in Tamil Nadu are eligible for Samacheer Kalvi as it is the mandated curriculum framework for schools in the state."]
+        },
+        {
+            "tag": "samacheer_kalvi_application_process",
+            "patterns": ["Application process for Samacheer Kalvi","Application process for Samacheer Kalvi Scheme","how to apply for Samacheer Kalvi", "how to apply for Samacheer Kalvi Scheme", "apply for Samacheer Kalvi Scheme","Application process for SAMACHEER KALVI", "how to apply for SAMACHEER KALVI", "apply for SAMACHEER KALVI", "How can I apply for Samacheer Kalvi?"],
+            "responses": ["There is no specific application process for Samacheer Kalvi. Students enrolled in schools affiliated with the Tamil Nadu State Board automatically follow the Samacheer Kalvi curriculum."]
+        },
+        {
+            "tag": "amma_matriculation_schools_about",
+            "patterns": ["Amma Matriculation Schools","amma matriculation school scheme","amma matriculation school","give me about amma matriculation schools scheme","amma matriculation schools scheme","amma matriculation schools","about amma matriculation schools scheme","about amma matriculation schools","what is amma matriculation schools scheme","tell me about amma matriculation schools scheme","What is amma matriculation schools?", "What are Amma Matriculation Schools?", "Tell me about Amma Matriculation Schools"],
+            "responses": ["Amma Matriculation Schools are a network of schools established by the Government of Tamil Nadu under the leadership of former Chief Minister J. Jayalalithaa. These schools provide quality education to students from primary to higher secondary levels, emphasizing holistic development and modern teaching methodologies."]
+        },
+        {
+            "tag": "amma_matriculation_schools_more_info",
+            "patterns": ["More information about Amma Matriculation Schools","More information about Amma Matriculation Schools scheme","where to find more information about Amma Matriculation Schools scheme","give me more information about Amma Matriculation Schools scheme","tell me more about Amma Matriculation Schools scheme","learn more about Amma Matriculation Schools scheme", "official website for Amma Matriculation Schools scheme", "more info about Amma Matriculation Schools scheme","more about Amma Matriculation Schools","more information about Amma Matriculation Schools scheme","More information about Amma Matriculation Schools","tell me some more information about Amma Matriculation Schools scheme", "where to find more info about Amma Matriculation Schools", "Where can I find more info about Amma Matriculation Schools?"],
+            "responses": ["Amma Matriculation Schools were established to provide quality education to students from diverse socio-economic backgrounds. These schools focus not only on academic excellence but also on holistic development, including extracurricular activities, sports, and character building. The schools follow modern teaching methodologies and strive to create a conducive learning environment for students."]
+        },
+        {
+            "tag": "amma_matriculation_schools_eligibility_criteria",
+            "patterns": ["Eligibility criteria for Amma Matriculation Schools","who is eligible for Amma Matriculation Schools scheme?","who is eligible for Amma Matriculation Schools","eligibility for Amma Matriculation Schools scheme?","how do I qualify for Amma Matriculation Schools scheme", "eligibility criteria for Amma Matriculation Schools scheme","Eligibility criteria for AMMMA MATRICULATION SCHOOLS", "who is eligible for AMMA MATRICULATION SCHOOLS", "how do I qualify for AMMA MATRICULATION SCHOOLS", "Who is eligible for Amma Matriculation Schools?"],
+            "responses": ["Students seeking admission to Amma Matriculation Schools must fulfill the eligibility criteria set by the respective schools, which may include age requirements, academic qualifications, and other criteria specified by the school management."]
+        },
+        {
+            "tag": "amma_matriculation_schools_application_process",
+            "patterns": ["Application process for Amma Matriculation Schools","Application process for Amma Matriculation Schools Scheme","how to apply for Amma Matriculation Schools", "how to apply for Amma Matriculation Schools Scheme", "apply for Amma Matriculation Schools Scheme","Application process for AMMA MATRICULATION SCHOOLS", "how to apply for AMMA MATRICULATION SCHOOLS", "apply for AMMA MATRICULATION SCHOOLS", "How can I apply for Amma Matriculation Schools?"],
+            "responses": ["The application process for admission to Amma Matriculation Schools typically involves obtaining and submitting application forms from the respective schools during the admission period. Details regarding the application process and requirements are usually available on the school's official website or through direct inquiry."]
+        },
+        {
+            "tag": "kalvi_tholaikatchi_about",
+            "patterns": ["Kalvi Tholaikatchi","give me about kalvi tholaikatchi scheme","kalvi tholaikatchi scheme","kalvi tholaikatchi","about kalvi tholaikatchi scheme","about kalvi tholaikatchi","what is kalvi tholaikatchi scheme","tell me about kalvi tholaikatchi scheme", "What is Kalvi Tholaikatchi?", "Tell me about Kalvi Tholaikatchi"],
+            "responses": ["Kalvi Tholaikatchi, meaning 'Education Television' in Tamil, is a television channel launched by the Government of Tamil Nadu to support distance education and supplement classroom learning. It broadcasts educational content, including lessons, lectures, and tutorials, aimed at students from primary to higher secondary levels."]
+        },
+        {
+            "tag": "kalvi_tholaikatchi_more_info",
+            "patterns": ["More information about Kalvi Tholaikatchi","More information about kalvi tholaikatchi","where to find more information about kalvi tholaikatchi scheme","give me more information about kalvi tholaikatchi scheme","tell me more about kalvi tholaikatchi scheme","learn more about kalvi tholaikatchi scheme", "official website for kalvi tholaikatchi scheme", "more info about kalvi tholaikatchi scheme","more about kalvi tholaikatchi","more information about kalvi tholaikatchi scheme","More information about KALVI THOLAIKATCHI","tell me some more information about kalvi tholaikatchi scheme", "where to find more info about KALVI THOLAIKATCHI", "Where can I find more info about Kalvi Tholaikatchi?"],
+            "responses": ["Kalvi Tholaikatchi plays a crucial role in supplementing classroom learning, especially for students in remote areas or those unable to attend regular classes due to various reasons. The channel broadcasts educational content prepared by subject matter experts, ensuring high-quality instruction across subjects and grade levels. It serves as a valuable resource for both students and teachers to enhance learning outcomes."]
+        },
+        {
+            "tag": "kalvi_tholaikatchi_eligibility_criteria",
+            "patterns": ["Eligibility criteria for Kalvi Tholaikatchi","who is eligible for Kalvi Tholaikatchi scheme?","who is eligible for Kalvi Tholaikatchi","eligibility for Kalvi Tholaikatchi scheme?","how do I qualify for Kalvi Tholaikatchi scheme", "eligibility criteria for Kalvi Tholaikatchi scheme","Eligibility criteria for KALVI THOLAIKATCHI", "who is eligible for KALVI THOLAIKATCHI", "how do I qualify for KALVI THOLAIKATCHI", "Who is eligible to access Kalvi Tholaikatchi?"],
+            "responses": ["Kalvi Tholaikatchi is accessible to all students, teachers, and educational institutions in Tamil Nadu. There are no specific eligibility criteria for accessing the educational content broadcasted on the channel."]
+        },
+        {
+            "tag": "kalvi_tholaikatchi_application_process",
+            "patterns": ["Application process for Kalvi Tholaikatchi","Application process for pmsma Scheme","how to apply for pmsma", "how to apply for pmsma Scheme", "apply for pmsma Scheme","Application process for PMSMA", "how to apply for PMSMA", "apply for PMSMA", "How can I access Kalvi Tholaikatchi?"],
+            "responses": ["Accessing Kalvi Tholaikatchi is typically done through television sets. Students, teachers, and educational institutions can tune in to the channel during scheduled broadcast times to avail of the educational content. The channel is freely available to viewers across Tamil Nadu."]
+        },
+        {
+            "tag": "nutritious_noon_meal_scheme_about",
+            "patterns": ["Nutritious Noon Meal Scheme","give me about nutritious noon meal scheme","nutritious noon meal scheme","nutritious noon meal","about nutritious noon meal scheme","about nutritious noon meal","what is nutritious noon meal scheme","tell me about nutritious noon meal scheme", "What is the Nutritious Noon Meal Scheme?", "Tell me about the Nutritious Noon Meal Scheme"],
+            "responses": ["The Nutritious Noon Meal Scheme is a welfare program implemented by the Government of Tamil Nadu to provide free and nutritious meals to school children studying in government and government-aided schools across the state. The scheme aims to improve the nutritional status of children and encourage regular school attendance."]
+        },
+        {
+            "tag": "nutritious_noon_meal_scheme_more_info",
+            "patterns": ["More information about Nutritious Noon Meal Scheme","More information about nutritious noon meal","where to find more information about nutritious noon meal scheme","give me more information about nutritious noon meal scheme","tell me more about nutritious noon meal scheme","learn more about nutritious noon meal scheme", "official website for nutritious noon meal scheme", "more info about nutritious noon meal scheme","more about nutritious noon meal","more information about nutritious noon meal scheme","More information about NUTRITIOUS NOON MEAL","tell me some more information about nutritious noon meal scheme", "where to find more info about NUTRITIOUS NOON MEAL", "Where can I find more info about the Nutritious Noon Meal Scheme?"],
+            "responses": ["The Nutritious Noon Meal Scheme has been instrumental in improving the nutritional status of school children and addressing malnutrition-related issues. By providing free and nutritious meals to students, the scheme not only ensures their physical well-being but also encourages regular school attendance and reduces dropout rates. The scheme is implemented with strict quality standards to ensure the meals meet nutritional requirements."]
+        },
+        {
+            "tag": "nutritious_noon_meal_scheme_eligibility_criteria",
+            "patterns": ["Eligibility criteria for Nutritious Noon Meal Scheme","who is eligible for Nutritious Noon Meal scheme?","who is eligible for Nutritious Noon Meal","eligibility for Nutritious Noon Meal scheme?","how do I qualify for Nutritious Noon Meal scheme", "eligibility criteria for Nutritious Noon Meal scheme","Eligibility criteria for NUTRITIOUS NOON MEAL", "who is eligible for NUTRITIOUS NOON MEAL", "how do I qualify for NUTRITIOUS NOON MEAL", "Who is eligible for the Nutritious Noon Meal Scheme?"],
+            "responses": ["All students studying in government and government-aided schools in Tamil Nadu are eligible for the Nutritious Noon Meal Scheme. There are no specific eligibility criteria other than being enrolled in the eligible schools."]
+        },
+        {
+            "tag": "nutritious_noon_meal_scheme_application_process",
+            "patterns": ["Application process for Nutritious Noon Meal Scheme","Application process for Nutritious Noon Meal Scheme","how to apply for Nutritious Noon Meal", "how to apply for Nutritious Noon Meal Scheme", "apply for Nutritious Noon Meal Scheme","Application process for NUTRITIOUS NOON MEAL", "how to apply for NUTRITIOUS NOON MEAL", "apply for NUTRITIOUS NOON MEAL", "How can I apply for the Nutritious Noon Meal Scheme?"],
+            "responses": ["There is no application process for the Nutritious Noon Meal Scheme. Meals are provided directly to students during school hours by the respective school authorities."]
+        },
+        {
+            "tag": "government_employment_schemes",
+            "patterns": ["government employment schemes","give me some government employment schemes","tell me some government employment schemes","suggest some government employment schemes", "employment schemes", "government employment programs"],
+            "responses": ["Sure! Here are some government employment schemes:\n1. Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)\n2. Pradhan Mantri Mudra Yojana (PMMY)\n3. Pradhan Mantri Rojgar Protsahan Yojana (PMRPY)\n4. Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY)"]
+        },
+        {
+            "tag": "pmmy_about",
+            "patterns": ["Pradhan Mantri Mudra Yojana (PMMY)", "give me about pmmy scheme", "pmmy scheme", "pmmy", "about pmmy scheme", "about pmmy", "what is pmmy scheme", "tell me about pmmy scheme", "What is PMMY?", "Tell me about PMMY"],
+            "responses": ["Pradhan Mantri Mudra Yojana (PMMY) is a government scheme launched in 2015 to provide financial support to micro-enterprises in the non-corporate, non-farm sector. The scheme aims to promote entrepreneurship by extending loans up to Rs. 10 lakh to small entrepreneurs, facilitating their growth and development."]
+        },
+        {
+            "tag": "pmmy_more_info",
+            "patterns": ["More information about PMMY", "where to find more information about pmmy scheme", "give me more information about pmmy scheme", "tell me more about pmmy scheme", "learn more about pmmy scheme", "official website for pmmy scheme", "more info about pmmy scheme", "more about pmmy", "more information about pmmy scheme", "More information about PMMY", "tell me some more information about pmmy scheme", "where to find more info about PMMY", "Where can I find more info about PMMY?"],
+            "responses": ["Pradhan Mantri Mudra Yojana (PMMY) is a government initiative aimed at providing financial assistance to micro-enterprises in the non-corporate, non-farm sector. For more information, you can visit the official website of the scheme or contact local bank branches participating in the PMMY program."]
+        },
+        {
+            "tag": "pmmy_eligibility_criteria",
+            "patterns": ["Eligibility criteria for PMMY", "who is eligible for pmmy scheme?", "who is eligible for pmmy", "eligibility for pmmy scheme?", "how do I qualify for pmmy scheme", "eligibility criteria for pmmy scheme", "Eligibility criteria for PMMY", "who is eligible for PMMY", "how do I qualify for PMMY", "Who is eligible for PMMY?"],
+            "responses": ["Micro-enterprises engaged in non-corporate, non-farm activities are eligible for Pradhan Mantri Mudra Yojana (PMMY) loans. Individuals seeking loans under PMMY need to fulfill the eligibility criteria set by participating financial institutions."]
+        },
+        {
+            "tag": "pmmy_application_process",
+            "patterns": ["Application process for PMMY", "Application process for pmmy Scheme", "how to apply for pmmy", "how to apply for pmmy Scheme", "apply for pmmy Scheme", "Application process for PMMY", "how to apply for PMMY", "apply for PMMY", "How to apply for PMMY?"],
+            "responses": ["To apply for a loan under Pradhan Mantri Mudra Yojana (PMMY), individuals can visit participating banks or financial institutions and submit the necessary documents and application forms. The loan approval process and terms may vary depending on the lending institution."]
+        },
+        {
+            "tag": "pmrpy_about",
+            "patterns": ["Pradhan Mantri Rojgar Protsahan Yojana (PMRPY)", "give me about pmrpy scheme", "pmrpy scheme", "pmrpy", "about pmrpy scheme", "about pmrpy", "what is pmrpy scheme", "tell me about pmrpy scheme", "What is PMRPY?", "Tell me about PMRPY"],
+            "responses": ["Pradhan Mantri Rojgar Protsahan Yojana (PMRPY) is a government scheme launched to incentivize employers for promoting employment generation. Under this scheme, the government provides payment of 8.33% contribution of Employer Pension Scheme (EPS) for new employees. The objective is to encourage employers to hire more workers by reducing the burden of Employees' Pension Scheme (EPS) contribution."]
+        },
+        {
+            "tag": "pmrpy_more_info",
+            "patterns": ["More information about PMRPY", "where to find more information about pmrpy scheme", "give me more information about pmrpy scheme", "tell me more about pmrpy scheme", "learn more about pmrpy scheme", "official website for pmrpy scheme", "more info about pmrpy scheme", "more about pmrpy", "more information about pmrpy scheme", "More information about PMRPY", "tell me some more information about pmrpy scheme", "where to find more info about PMRPY", "Where can I find more info about PMRPY?"],
+            "responses": ["Pradhan Mantri Rojgar Protsahan Yojana (PMRPY) is a government initiative aimed at promoting employment generation by incentivizing employers. For more information about PMRPY, individuals and employers can visit the official website of the scheme or contact relevant government departments."]
+        },
+        {
+            "tag": "pmrpy_eligibility_criteria",
+            "patterns": ["Eligibility criteria for PMRPY", "who is eligible for pmrpy scheme?", "who is eligible for pmrpy", "eligibility for pmrpy scheme?", "how do I qualify for pmrpy scheme", "eligibility criteria for pmrpy scheme", "Eligibility criteria for PMRPY", "who is eligible for PMRPY", "how do I qualify for PMRPY", "Who is eligible for PMRPY?"],
+            "responses": ["Employers in specified sectors who hire new employees earning wages less than Rs. 15,000 per month are eligible for Pradhan Mantri Rojgar Protsahan Yojana (PMRPY) benefits. Employers need to fulfill the eligibility criteria and comply with the requirements set by the scheme."]
+        },
+        {
+            "tag": "pmrpy_application_process",
+            "patterns": ["Application process for PMRPY", "Application process for pmrpy Scheme", "how to apply for pmrpy", "how to apply for pmrpy Scheme", "apply for pmrpy Scheme", "Application process for PMRPY", "how to apply for PMRPY", "apply for PMRPY", "How to apply for PMRPY?"],
+            "responses": ["Employers do not need to apply separately for Pradhan Mantri Rojgar Protsahan Yojana (PMRPY). The scheme is implemented through the Employees' Provident Fund Organization (EPFO), and eligible employers automatically receive benefits for eligible employees upon fulfilling the criteria."]
+        },
+        {
+            "tag": "ddugky_about",
+            "patterns": ["Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY)", "give me about ddugky scheme", "ddugky scheme", "ddugky", "about ddugky scheme", "about ddugky", "what is ddugky scheme", "tell me about ddugky scheme", "What is DDU-GKY?", "Tell me about DDU-GKY"],
+            "responses": ["Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY) is a skill development program launched by the Government of India aimed at providing market-oriented training to rural youth from poor families. The objective is to enhance their employability and income by providing training in various sectors such as agriculture, construction, retail, hospitality, healthcare, and IT, with an emphasis on placement-linked skill development."]
+        },
+        {
+            "tag": "ddugky_more_info",
+            "patterns": ["More information about DDU-GKY", "where to find more information about ddugky scheme", "give me more information about ddugky scheme", "tell me more about ddugky scheme", "learn more about ddugky scheme", "official website for ddugky scheme", "more info about ddugky scheme", "more about ddugky", "more information about ddugky scheme", "More information about DDU-GKY", "tell me some more information about ddugky scheme", "where to find more info about DDU-GKY", "Where can I find more info about DDU-GKY?"],
+            "responses": ["Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY) is a government initiative aimed at providing skill development training to rural youth. For more information about DDU-GKY, individuals can visit the official website of the scheme or contact relevant government departments."]
+        },
+        {
+            "tag": "ddugky_eligibility_criteria",
+            "patterns": ["Eligibility criteria for DDU-GKY", "who is eligible for ddugky scheme?", "who is eligible for ddugky", "eligibility for ddugky scheme?", "how do I qualify for ddugky scheme", "eligibility criteria for ddugky scheme", "Eligibility criteria for DDU-GKY", "who is eligible for DDU-GKY", "how do I qualify for DDU-GKY", "Who is eligible for DDU-GKY?"],
+            "responses": ["Rural youth from poor families between the ages of 15 and 35 years are eligible for Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY). The scheme aims to provide skill development opportunities to economically disadvantaged youth in rural areas."]
+        },
+        {
+            "tag": "ddugky_application_process",
+            "patterns": ["Application process for DDU-GKY", "Application process for ddugky Scheme", "how to apply for ddugky", "how to apply for ddugky Scheme", "apply for ddugky Scheme", "Application process for DDU-GKY", "how to apply for DDU-GKY", "apply for DDU-GKY", "How to apply for DDU-GKY?"],
+            "responses": ["To apply for skill development training under Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY), eligible candidates can contact DDU-GKY training centers or project implementing agencies in their respective areas. The application process may involve submission of required documents and participation in selection processes conducted by implementing agencies."]
+        },
+        {
+            "tag": "rural_development_schemes",
+            "patterns": ["government rural development schemes","give me some government rural development schemes","tell me some government rural development schemes","suggest some government rural development schemes", "rural development schemes","rural schemes","rural programs","rural development programs","government rural development programs"],
+            "responses": ["Sure! Here are some government rural development schemes:\n1. Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)\n2. Pradhan Mantri Gram Sadak Yojana (PMGSY)\n3. Pradhan Mantri Awaas Yojana - Gramin (PMAY-G)\n4.National Rural Livelihoods Mission (NRLM)\n5.Pradhan Mantri Krishi Sinchayee Yojana (PMKSY)"]
+        },
+        {
+            "tag": "pmgsy_about",
+            "patterns": ["Pradhan Mantri Gram Sadak Yojana (PMGSY)","give me about pmgsy scheme","pmgsy scheme","pmgsy","about pmgsy scheme","about pmgsy","what is pmgsy scheme","tell me about pmgsy scheme", "What is PMGSY?", "Tell me about PMGSY"],
+            "responses": ["Pradhan Mantri Gram Sadak Yojana (PMGSY) is a government scheme launched to provide all-weather road connectivity to unconnected rural habitations. The scheme aims to improve access to markets, healthcare, education, and other social services by constructing durable roads in rural areas."]
+        },
+        {
+            "tag": "pmgsy_more_info",
+            "patterns": ["More information about PMGSY","where to find more information about pmgsy scheme","give me more information about pmgsy scheme","tell me more about pmgsy scheme","learn more about pmgsy scheme", "official website for pmgsy scheme", "more info about pmgsy scheme","more about pmgsy","more information about pmgsy scheme","More information about PMGSY","tell me some more information about pmgsy scheme", "where to find more info about PMGSY", "Where can I find more info about PMGSY?"],
+            "responses": ["Pradhan Mantri Gram Sadak Yojana (PMGSY) is a flagship rural infrastructure development program of the Government of India. For more information about PMGSY, individuals can visit the official website of the scheme or contact relevant government departments."]
+        },
+        {
+            "tag": "pmgsy_eligibility_criteria",
+            "patterns": ["Eligibility criteria for PMGSY","who is eligible for pmgsy scheme?","who is eligible for pmgsy","eligibility for pmgsy scheme?","how do I qualify for pmgsy scheme", "eligibility criteria for pmgsy scheme","Eligibility criteria for PMGSY", "who is eligible for PMGSY", "how do I qualify for PMGSY", "Who is eligible for PMGSY?"],
+            "responses": ["Rural habitations in need of all-weather road connectivity are eligible for Pradhan Mantri Gram Sadak Yojana (PMGSY) assistance."]
+        },
+        {
+            "tag": "pmgsy_application_process",
+            "patterns": ["Application process for PMGSY","Application process for pmgsy Scheme","how to apply for pmgsy", "how to apply for pmgsy Scheme", "apply for pmgsy Scheme","Application process for PMGSY", "how to apply for PMGSY", "apply for PMGSY", "How to apply for PMGSY?"],
+            "responses": ["The implementation of Pradhan Mantri Gram Sadak Yojana (PMGSY) is carried out by designated agencies and authorities. Rural habitations in need of road connectivity are identified and included in the scheme's project proposals for construction."]
+        },
+        {
+            "tag": "pmayg_about",
+            "patterns": ["Pradhan Mantri Awaas Yojana - Gramin (PMAY-G)","give me about pmayg scheme","pmayg scheme","pmayg","about pmayg scheme","about pmayg","what is pmayg scheme","tell me about pmayg scheme", "What is PMAY-G?", "Tell me about PMAY-G"],
+            "responses": ["Pradhan Mantri Awaas Yojana - Gramin (PMAY-G) is a government scheme launched to provide pucca houses with basic amenities to rural households living in kutcha houses. The scheme aims to improve housing conditions and enhance the quality of life for rural households."]
+        },
+        {
+            "tag": "pmayg_more_info",
+            "patterns": ["More information about PMAY-G","where to find more information about pmayg scheme","give me more information about pmayg scheme","tell me more about pmayg scheme","learn more about pmayg scheme", "official website for pmayg scheme", "more info about pmayg scheme","more about pmayg","more information about pmayg scheme","More information about PMAY-G","tell me some more information about pmayg scheme", "where to find more info about PMAY-G", "Where can I find more info about PMAY-G?"],
+            "responses": ["Pradhan Mantri Awaas Yojana - Gramin (PMAY-G) is implemented by the Ministry of Rural Development, Government of India. For more information about PMAY-G, individuals can visit the official website of the scheme or contact relevant government departments."]
+        },
+        {
+            "tag": "pmayg_eligibility_criteria",
+            "patterns": ["Eligibility criteria for PMAY-G","who is eligible for pmayg scheme?","who is eligible for pmayg","eligibility for pmayg scheme?","how do I qualify for pmayg scheme", "eligibility criteria for pmayg scheme","Eligibility criteria for PMAY-G", "who is eligible for PMAY-G", "how do I qualify for PMAY-G", "Who is eligible for PMAY-G?"],
+            "responses": ["Rural households living in kutcha houses are eligible for assistance under Pradhan Mantri Awaas Yojana - Gramin (PMAY-G)."]
+        },
+        {
+            "tag": "pmayg_application_process",
+            "patterns": ["Application process for PMAY-G","Application process for pmayg Scheme","how to apply for pmayg", "how to apply for pmayg Scheme", "apply for pmayg Scheme","Application process for PMAY-G", "how to apply for PMAY-G", "apply for PMAY-G", "How to apply for PMAY-G?"],
+            "responses": ["The implementation of Pradhan Mantri Awaas Yojana - Gramin (PMAY-G) is carried out by designated authorities at the district and block levels. Eligible rural households can apply for assistance through the designated application process as per the guidelines of the scheme."]
+        },
+        {
+            "tag": "pmksy_about",
+            "patterns": ["Pradhan Mantri Krishi Sinchayee Yojana (PMKSY)","give me about pmksy scheme","pmksy scheme","pmksy","about pmksy scheme","about pmksy","what is pmksy scheme","tell me about pmksy scheme", "What is PMKSY?", "Tell me about PMKSY"],
+            "responses": ["Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) is a government scheme launched to enhance the irrigation potential and improve water use efficiency in agriculture. The scheme focuses on various interventions such as watershed development, micro-irrigation, and sustainable water harvesting."]
+        },
+        {
+            "tag": "pmksy_more_info",
+            "patterns": ["More information about PMKSY","where to find more information about pmksy scheme","give me more information about pmksy scheme","tell me more about pmksy scheme","learn more about pmksy scheme", "official website for pmksy scheme", "more info about pmksy scheme","more about pmksy","more information about pmksy scheme","More information about PMKSY","tell me some more information about pmksy scheme", "where to find more info about PMKSY", "Where can I find more info about PMKSY?"],
+            "responses": ["Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) is implemented by the Ministry of Agriculture and Farmers Welfare, Government of India. For more information about PMKSY, individuals can visit the official website of the scheme or contact relevant government departments."]
+        },
+        {
+            "tag": "pmksy_eligibility_criteria",
+            "patterns": ["Eligibility criteria for PMKSY","who is eligible for pmksy scheme?","who is eligible for pmksy","eligibility for pmksy scheme?","how do I qualify for pmksy scheme", "eligibility criteria for pmksy scheme","Eligibility criteria for PMKSY", "who is eligible for PMKSY", "how do I qualify for PMKSY", "Who is eligible for PMKSY?"],
+            "responses": ["Farmers and agricultural stakeholders seeking to improve irrigation facilities and water use efficiency are eligible for assistance under Pradhan Mantri Krishi Sinchayee Yojana (PMKSY)."]
+        },
+        {
+            "tag": "pmksy_application_process",
+            "patterns": ["Application process for PMKSY","Application process for pmksy Scheme","how to apply for pmksy", "how to apply for pmksy Scheme", "apply for pmksy Scheme","Application process for PMKSY", "how to apply for PMKSY", "apply for PMKSY", "How to apply for PMKSY?"],
+            "responses": ["Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) projects are implemented through designated authorities at the state and district levels. Farmers and stakeholders can apply for assistance through the designated application process as per the guidelines of the scheme."]
+        },
+        {
+            "tag": "urban_development_schemes",
+            "patterns": ["government urban development schemes","give me some government urban development schemes","tell me some government urban development schemes","suggest some government urban development schemes","urban schemes","urban programs", "urban development schemes","urban development programs","government urban development programs"],
+            "responses": ["Sure! Here are some government urban development schemes:\n1. Smart Cities Mission\n2. Pradhan Mantri Awas Yojana - Urban (PMAY-U)\n3. Atal Mission for Rejuvenation and Urban Transformation (AMRUT)\n4.Swachh Bharat Mission \n5.National Urban Livelihoods Mission (DAY-NULM)"]
+        },
+        {
+            "tag": "smart_cities_about",
+            "patterns": ["Smart Cities Mission","give me about Smart Cities Mission scheme","Smart Cities Mission scheme","about Smart Cities Mission","what is Smart Cities Mission","tell me about Smart Cities Mission", "What is Smart Cities Mission?", "Tell me about Smart Cities Mission"],
+            "responses": ["The Smart Cities Mission is an urban renewal and retrofitting program launched by the Government of India to develop selected cities across the country into 'smart cities'. These smart cities are envisioned to be sustainable and inclusive, leveraging technology and innovation to improve infrastructure, governance, and quality of life for residents."]
+        },
+        {
+            "tag": "smart_cities_more_info",
+            "patterns": ["More information about Smart Cities Mission","where to find more information about Smart Cities Mission","give me more information about Smart Cities Mission","tell me more about Smart Cities Mission","learn more about Smart Cities Mission", "official website for Smart Cities Mission", "more info about Smart Cities Mission","more about Smart Cities Mission","more information about Smart Cities Mission","More information about Smart Cities Mission","tell me some more information about Smart Cities Mission", "where to find more info about Smart Cities Mission", "Where can I find more info about Smart Cities Mission?"],
+            "responses": ["The Smart Cities Mission is implemented by the Ministry of Housing and Urban Affairs, Government of India. For more information about the Smart Cities Mission, individuals can visit the official website of the scheme or contact relevant government departments."]
+        },
+        {
+            "tag": "smart_cities_eligibility_criteria",
+            "patterns": ["Eligibility criteria for Smart Cities Mission","who is eligible for Smart Cities Mission?","eligibility for Smart Cities Mission","eligibility criteria for Smart Cities Mission", "Who is eligible for Smart Cities Mission?"],
+            "responses": ["The selection of cities under the Smart Cities Mission is based on a competitive process where cities need to propose comprehensive development plans and meet specific criteria set by the government."]
+        },
+        {
+            "tag": "smart_cities_application_process",
+            "patterns": ["Application process for Smart Cities Mission","how to apply for Smart Cities Mission", "apply for Smart Cities Mission", "How to apply for Smart Cities Mission?"],
+            "responses": ["Cities interested in participating in the Smart Cities Mission need to submit proposals outlining their vision, strategy, and plan for urban development. These proposals are evaluated based on defined criteria, and selected cities receive funding and support for implementing their smart city projects."]
+        },  
+        {
+            "tag": "pmayu_about",
+            "patterns": ["Pradhan Mantri Awas Yojana - Urban (PMAY-U)","give me about PMAY-U scheme","PMAY-U scheme","PMAY-U","about PMAY-U scheme","about PMAY-U","what is PMAY-U scheme","tell me about PMAY-U scheme", "What is PMAY-U?", "Tell me about PMAY-U"],
+            "responses": ["Pradhan Mantri Awas Yojana - Urban (PMAY-U) is a government scheme launched to provide affordable housing to urban poor households by the year 2022. The scheme aims to address the housing shortage in urban areas and improve living conditions for economically weaker sections, low-income groups, and slum dwellers."]
+        },
+        {
+            "tag": "pmayu_more_info",
+            "patterns": ["More information about PMAY-U","where to find more information about PMAY-U scheme","give me more information about PMAY-U scheme","tell me more about PMAY-U scheme","learn more about PMAY-U scheme", "official website for PMAY-U scheme", "more info about PMAY-U scheme","more about PMAY-U","more information about PMAY-U scheme","More information about PMAY-U","tell me some more information about PMAY-U scheme", "where to find more info about PMAY-U", "Where can I find more info about PMAY-U?"],
+            "responses": ["Pradhan Mantri Awas Yojana - Urban (PMAY-U) is implemented by the Ministry of Housing and Urban Affairs, Government of India. For more information about PMAY-U, individuals can visit the official website of the scheme or contact relevant government departments."]
+        },
+        {
+            "tag": "pmayu_eligibility_criteria",
+            "patterns": ["Eligibility criteria for PMAY-U","who is eligible for PMAY-U scheme?","who is eligible for PMAY-U","eligibility for PMAY-U scheme?","how do I qualify for PMAY-U scheme", "eligibility criteria for PMAY-U scheme","Eligibility criteria for PMAY-U", "who is eligible for PMAY-U", "how do I qualify for PMAY-U", "Who is eligible for PMAY-U?"],
+            "responses": ["Economically weaker sections, low-income groups, and urban poor households are eligible for assistance under Pradhan Mantri Awas Yojana - Urban (PMAY-U)."]
+        },
+        {
+            "tag": "pmayu_application_process",
+            "patterns": ["Application process for PMAY-U","how to apply for PMAY-U", "apply for PMAY-U", "How to apply for PMAY-U?"],
+            "responses": ["Interested individuals can apply for Pradhan Mantri Awas Yojana - Urban (PMAY-U) through the designated application process as per the guidelines of the scheme. Applications can be submitted through online or offline modes, depending on the provisions made by the implementing authorities."]
+        },   
+        {
+            "tag": "amrut_about",
+            "patterns": ["Atal Mission for Rejuvenation and Urban Transformation (AMRUT)","give me about AMRUT scheme","AMRUT scheme","AMRUT","about AMRUT scheme","about AMRUT","what is AMRUT scheme","tell me about AMRUT scheme", "What is AMRUT?", "Tell me about AMRUT"],
+            "responses": ["The Atal Mission for Rejuvenation and Urban Transformation (AMRUT) is a government scheme aimed at improving basic urban infrastructure in cities and towns across India. It focuses on providing essential services like water supply, sewerage, and sanitation, as well as developing green spaces and parks to enhance the quality of life for urban residents."]
+        },
+        {
+            "tag": "amrut_more_info",
+            "patterns": ["More information about AMRUT","where to find more information about AMRUT scheme","give me more information about AMRUT scheme","tell me more about AMRUT scheme","learn more about AMRUT scheme", "official website for AMRUT scheme", "more info about AMRUT scheme","more about AMRUT","more information about AMRUT scheme","More information about AMRUT","tell me some more information about AMRUT scheme", "where to find more info about AMRUT", "Where can I find more info about AMRUT?"],
+            "responses": ["The Atal Mission for Rejuvenation and Urban Transformation (AMRUT) is implemented by the Ministry of Housing and Urban Affairs, Government of India. For more information about AMRUT, individuals can visit the official website of the scheme or contact relevant government departments."]
+        },
+        {
+            "tag": "amrut_eligibility_criteria",
+            "patterns": ["Eligibility criteria for AMRUT","who is eligible for AMRUT scheme?","who is eligible for AMRUT","eligibility for AMRUT scheme?","how do I qualify for AMRUT scheme", "eligibility criteria for AMRUT scheme","Eligibility criteria for AMRUT", "who is eligible for AMRUT", "how do I qualify for AMRUT", "Who is eligible for AMRUT?"],
+            "responses": ["Cities and towns across India are eligible for assistance under the Atal Mission for Rejuvenation and Urban Transformation (AMRUT), subject to meeting specific criteria set by the government."]
+        },
+        {
+            "tag": "amrut_application_process",
+            "patterns": ["Application process for AMRUT","how to apply for AMRUT", "apply for AMRUT", "How to apply for AMRUT?"],
+            "responses": ["The implementation of the Atal Mission for Rejuvenation and Urban Transformation (AMRUT) is carried out by designated authorities at the state and local levels. Eligible cities and towns can apply for assistance through the designated application process as per the guidelines of the scheme."]
+        },
+        {
+            "tag": "sbm_about",
+            "patterns": ["Swachh Bharat Mission","give me about Swachh Bharat Mission scheme","Swachh Bharat Mission scheme","Swachh Bharat Mission","about Swachh Bharat Mission scheme","about Swachh Bharat Mission","what is Swachh Bharat Mission scheme","tell me about Swachh Bharat Mission scheme", "What is Swachh Bharat Mission?", "Tell me about Swachh Bharat Mission"],
+            "responses": ["The Swachh Bharat Mission (Urban) is a flagship government scheme launched in 2014 to achieve universal sanitation and eliminate open defecation in urban areas across India. It focuses on constructing toilets, promoting solid waste management practices, and ensuring cleanliness and hygiene to create healthier and more sustainable urban environments."]
+        },
+        {
+            "tag": "sbm_more_info",
+            "patterns": ["More information about Swachh Bharat Mission","where to find more information about Swachh Bharat Mission scheme","give me more information about Swachh Bharat Mission scheme","tell me more about Swachh Bharat Mission scheme","learn more about Swachh Bharat Mission scheme", "official website for Swachh Bharat Mission scheme", "more info about Swachh Bharat Mission scheme","more about Swachh Bharat Mission","more information about Swachh Bharat Mission scheme","More information about Swachh Bharat Mission","tell me some more information about Swachh Bharat Mission scheme", "where to find more info about Swachh Bharat Mission", "Where can I find more info about Swachh Bharat Mission?"],
+            "responses": ["The Swachh Bharat Mission (Urban) is implemented by the Ministry of Housing and Urban Affairs, Government of India. For more information about Swachh Bharat Mission (Urban), individuals can visit the official website of the scheme or contact relevant government departments."]
+        },
+        {
+            "tag": "sbm_eligibility_criteria",
+            "patterns": ["Eligibility criteria for Swachh Bharat Mission","who is eligible for Swachh Bharat Mission scheme?","who is eligible for Swachh Bharat Mission","eligibility for Swachh Bharat Mission scheme?","how do I qualify for Swachh Bharat Mission scheme", "eligibility criteria for Swachh Bharat Mission scheme","Eligibility criteria for Swachh Bharat Mission", "who is eligible for Swachh Bharat Mission", "how do I qualify for Swachh Bharat Mission", "Who is eligible for Swachh Bharat Mission?"],
+            "responses": ["All urban areas across India are eligible for assistance under the Swachh Bharat Mission (Urban) scheme, with a focus on improving sanitation and cleanliness to create healthier and more sustainable urban environments."]
+        },
+        {
+            "tag": "sbm_application_process",
+            "patterns": ["Application process for Swachh Bharat Mission","how to apply for Swachh Bharat Mission", "apply for Swachh Bharat Mission", "How to apply for Swachh Bharat Mission?"],
+            "responses": ["The implementation of the Swachh Bharat Mission (Urban) is carried out by designated urban local bodies and agencies. Cities and towns interested in participating in the scheme can apply for assistance through the designated application process as per the guidelines of the scheme."]
+        },
+        {
+            "tag": "daynulm_about",
+            "patterns": ["National Urban Livelihoods Mission (DAY-NULM)","give me about DAY-NULM scheme","DAY-NULM scheme","DAY-NULM","about DAY-NULM scheme","about DAY-NULM","what is DAY-NULM scheme","tell me about DAY-NULM scheme", "What is DAY-NULM?", "Tell me about DAY-NULM"],
+            "responses": ["The National Urban Livelihoods Mission (DAY-NULM) is a government scheme aimed at reducing poverty and vulnerability in urban areas by providing skill training, employment opportunities, and social security to urban poor households. It focuses on promoting self-employment and entrepreneurial ventures through self-help groups (SHGs) and facilitating access to credit and financial services."]
+        },
+        {
+            "tag": "daynulm_more_info",
+            "patterns": ["More information about DAY-NULM","where to find more information about DAY-NULM scheme","give me more information about DAY-NULM scheme","tell me more about DAY-NULM scheme","learn more about DAY-NULM scheme", "official website for DAY-NULM scheme", "more info about DAY-NULM scheme","more about DAY-NULM","more information about DAY-NULM scheme","More information about DAY-NULM","tell me some more information about DAY-NULM scheme", "where to find more info about DAY-NULM", "Where can I find more info about DAY-NULM?"],
+            "responses": ["The National Urban Livelihoods Mission (DAY-NULM) is implemented by the Ministry of Housing and Urban Affairs, Government of India. For more information about DAY-NULM, individuals can visit the official website of the scheme or contact relevant government departments."]
+        },
+        {
+            "tag": "daynulm_eligibility_criteria",
+            "patterns": ["Eligibility criteria for DAY-NULM","who is eligible for DAY-NULM scheme?","who is eligible for DAY-NULM","eligibility for DAY-NULM scheme?","how do I qualify for DAY-NULM scheme", "eligibility criteria for DAY-NULM scheme","Eligibility criteria for DAY-NULM", "who is eligible for DAY-NULM", "how do I qualify for DAY-NULM", "Who is eligible for DAY-NULM?"],
+            "responses": ["Urban poor households, including street vendors, ragpickers, domestic workers, and other vulnerable groups, are eligible for assistance under the National Urban Livelihoods Mission (DAY-NULM)."]
+        },
+        {
+            "tag": "daynulm_application_process",
+            "patterns": ["Application process for DAY-NULM","how to apply for DAY-NULM", "apply for DAY-NULM", "How to apply for DAY-NULM?"],
+            "responses": ["The National Urban Livelihoods Mission (DAY-NULM) projects are implemented through designated urban local bodies and agencies. Eligible urban poor households can apply for assistance through the designated application process as per the guidelines of the scheme."]
+        },
+        {
+            "tag": "environmental_conservation_schemes",
+            "patterns": ["government environmental conservation schemes","give me some government environmental conservation schemes","tell me some government environmental conservation schemes","suggest some government environmental conservation schemes", "environmental conservation schemes","environmental schemes","environment schemes","environmental programs","environmental conservation programs","government environmental conservation programs"],
+            "responses": ["Sure! Here are some government environmental conservation schemes:\n1. Swachh Bharat Mission (Clean India Mission)\n2. National Action Plan on Climate Change (NAPCC)\n3.Pradhan Mantri Ujjwala Yojana (PMUY) \n4.National Clean Air Programme (NCAP) \n5.National Mission for Green India (GIM)\n6.National River Conservation Plan (NRCP)"]
+        },
+        {
+            "tag": "napcc_about",
+            "patterns": ["National Action Plan on Climate Change (NAPCC)","give me about NAPCC scheme","NAPCC scheme","NAPCC","about NAPCC scheme","about NAPCC","what is NAPCC scheme","tell me about NAPCC scheme", "What is NAPCC?", "Tell me about NAPCC"],
+            "responses": ["The National Action Plan on Climate Change (NAPCC) is a comprehensive policy framework launched by the Government of India in 2008 to address climate change challenges. It comprises eight national missions aimed at promoting sustainable development practices and mitigating greenhouse gas emissions."]
+        },
+        {
+            "tag": "napcc_more_info",
+            "patterns": ["More information about NAPCC","where to find more information about NAPCC scheme","give me more information about NAPCC scheme","tell me more about NAPCC scheme","learn more about NAPCC scheme", "official website for NAPCC scheme", "more info about NAPCC scheme","more about NAPCC","more information about NAPCC scheme","More information about NAPCC","tell me some more information about NAPCC scheme", "where to find more info about NAPCC", "Where can I find more info about NAPCC?"],
+            "responses": ["The National Action Plan on Climate Change (NAPCC) is spearheaded by the Ministry of Environment, Forest and Climate Change, Government of India. For more detailed information about NAPCC, individuals can visit the official website of the Ministry or refer to relevant government publications and reports."]
+        },
+        {
+            "tag": "napcc_components",
+            "patterns": ["Components of NAPCC","what are the components of NAPCC?","NAPCC missions","missions of NAPCC", "what does NAPCC comprise of?", "what are the parts of NAPCC?"],
+            "responses": ["NAPCC comprises eight national missions focusing on different sectors to address climate change challenges. These missions include initiatives related to renewable energy, energy efficiency, sustainable agriculture, water conservation, Himalayan ecosystem preservation, and more."]
+        },
+        {
+            "tag": "ncap_about",
+            "patterns": ["National Clean Air Programme (NCAP)","give me about NCAP scheme","NCAP scheme","NCAP","about NCAP scheme","about NCAP","what is NCAP scheme","tell me about NCAP scheme", "What is NCAP?", "Tell me about NCAP"],
+            "responses": ["The National Clean Air Programme (NCAP) is a comprehensive action plan launched by the Government of India in 2019 to address air pollution in major Indian cities. It aims to achieve a significant reduction in particulate matter (PM10 and PM2.5) concentrations by 20% to 30% by 2024, compared to 2017 levels."]
+        },
+        {
+            "tag": "ncap_more_info",
+            "patterns": ["More information about NCAP","where to find more information about NCAP scheme","give me more information about NCAP scheme","tell me more about NCAP scheme","learn more about NCAP scheme", "official website for NCAP scheme", "more info about NCAP scheme","more about NCAP","more information about NCAP scheme","More information about NCAP","tell me some more information about NCAP scheme", "where to find more info about NCAP", "Where can I find more info about NCAP?"],
+            "responses": ["The National Clean Air Programme (NCAP) is implemented by the Ministry of Environment, Forest and Climate Change, Government of India. For detailed information about NCAP, individuals can visit the official website of the Ministry or refer to relevant government documents and reports."]
+        },
+        {
+            "tag": "ncap_objectives",
+            "patterns": ["Objectives of NCAP","what are the objectives of NCAP?","NCAP goals", "what does NCAP aim to achieve?", "NCAP targets"],
+            "responses": ["The objectives of the National Clean Air Programme (NCAP) include reducing air pollution levels in major Indian cities, enhancing air quality monitoring networks, promoting public participation and awareness, strengthening enforcement mechanisms, and implementing source-specific pollution control measures."]
+        },
+        {
+            "tag": "gim_about",
+            "patterns": ["National Mission for Green India (GIM)","give me about GIM scheme","GIM scheme","GIM","about GIM scheme","about GIM","what is GIM scheme","tell me about GIM scheme", "What is GIM?", "Tell me about GIM"],
+            "responses": ["The National Mission for Green India (GIM) is a government initiative launched in 2014 aimed at enhancing forest cover and improving ecosystem services across India. It focuses on afforestation, reforestation, and conservation activities to increase green cover and promote sustainable forest management."]
+        },
+        {
+            "tag": "gim_more_info",
+            "patterns": ["More information about GIM","where to find more information about GIM scheme","give me more information about GIM scheme","tell me more about GIM scheme","learn more about GIM scheme", "official website for GIM scheme", "more info about GIM scheme","more about GIM","more information about GIM scheme","More information about GIM","tell me some more information about GIM scheme", "where to find more info about GIM", "Where can I find more info about GIM?"],
+            "responses": ["The National Mission for Green India (GIM) is implemented by the Ministry of Environment, Forest and Climate Change, Government of India. For more information about GIM, individuals can visit the official website of the Ministry or refer to relevant government publications and reports."]
+        },
+        {
+            "tag": "gim_objectives",
+            "patterns": ["Objectives of GIM","what are the objectives of GIM?","GIM goals", "what does GIM aim to achieve?", "GIM targets"],
+            "responses": ["The objectives of the National Mission for Green India (GIM) include increasing forest/tree cover, enhancing ecosystem services, improving biodiversity, sequestering carbon, and providing livelihood support to forest-dependent communities."]
+        },
+        {
+            "tag": "nrcp_about",
+            "patterns": ["National River Conservation Plan (NRCP)","give me about NRCP scheme","NRCP scheme","NRCP","about NRCP scheme","about NRCP","what is NRCP scheme","tell me about NRCP scheme", "What is NRCP?", "Tell me about NRCP"],
+            "responses": ["The National River Conservation Plan (NRCP) is a government initiative launched in 1995 to prevent and control pollution in major rivers of India. It focuses on implementing pollution abatement measures such as sewage treatment, industrial effluent treatment, and riverfront development to improve river water quality."]
+        },
+        {
+            "tag": "nrcp_more_info",
+            "patterns": ["More information about NRCP","where to find more information about NRCP scheme","give me more information about NRCP scheme","tell me more about NRCP scheme","learn more about NRCP scheme", "official website for NRCP scheme", "more info about NRCP scheme","more about NRCP","more information about NRCP scheme","More information about NRCP","tell me some more information about NRCP scheme", "where to find more info about NRCP", "Where can I find more info about NRCP?"],
+            "responses": ["The National River Conservation Plan (NRCP) is implemented by the Ministry of Jal Shakti, Government of India. For more information about NRCP, individuals can visit the official website of the Ministry or refer to relevant government publications and reports."]
+        },
+        {
+            "tag": "nrcp_components",
+            "patterns": ["Components of NRCP","what are the components of NRCP?","NRCP initiatives","initiatives of NRCP", "what does NRCP comprise of?", "what are the parts of NRCP?"],
+            "responses": ["The National River Conservation Plan (NRCP) comprises various initiatives aimed at improving the quality of river water. These include sewage treatment plants, effluent treatment plants, riverfront development projects, solid waste management initiatives, and public awareness programs."]
+        },
+        {
+            "tag": "financial_inclusion_schemes",
+            "patterns": ["government financial inclusion schemes","give me some government financial inclusion schemes","tell me some government financial inclusion schemes","suggest some government financial inclusion schemes", "financial inclusion schemes","financial schemes","financial scheme","financial programs","financial inclusion programs","government  programs"],
+            "responses": ["Sure! Here are some government financial inclusion schemes:\n1. Pradhan Mantri Jan Dhan Yojana (PMJDY)\n2. Pradhan Mantri Mudra Yojana (PMMY)\n3.Atal Pension Yojana (APY) \n4.Stand-Up India Scheme \n5.Pradhan Mantri Suraksha Bima Yojana (PMSBY) \n6.Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"]
+        },
+        {
+            "tag": "pmsby_about",
+            "patterns": ["Pradhan Mantri Suraksha Bima Yojana (PMSBY)","give me about PMSBY scheme","PMSBY scheme","PMSBY","about PMSBY scheme","about PMSBY","what is PMSBY scheme","tell me about PMSBY scheme", "What is PMSBY?", "Tell me about PMSBY"],
+            "responses": ["Pradhan Mantri Suraksha Bima Yojana (PMSBY) is a government-backed accidental insurance scheme aimed at providing financial protection to individuals against accidental death and disability. It offers coverage of ₹2 lakh for accidental death and permanent total disability, and ₹1 lakh for permanent partial disability, at a nominal annual premium."]
+        },
+        {
+            "tag": "pmsby_more_info",
+            "patterns": ["More information about PMSBY","where to find more information about PMSBY scheme","give me more information about PMSBY scheme","tell me more about PMSBY scheme","learn more about PMSBY scheme", "official website for PMSBY scheme", "more info about PMSBY scheme","more about PMSBY","more information about PMSBY scheme","More information about PMSBY","tell me some more information about PMSBY scheme", "where to find more info about PMSBY", "Where can I find more info about PMSBY?"],
+            "responses": ["Pradhan Mantri Suraksha Bima Yojana (PMSBY) is administered by the Ministry of Finance, Government of India. For detailed information about PMSBY, individuals can visit the official website of the Ministry or contact designated authorities."]
+        },
+        {
+            "tag": "pmsby_eligibility_criteria",
+            "patterns": ["Eligibility criteria for PMSBY","who is eligible for PMSBY scheme?","who is eligible for PMSBY","eligibility for PMSBY scheme?","how do I qualify for PMSBY scheme", "eligibility criteria for PMSBY scheme","Eligibility criteria for PMSBY", "who is eligible for PMSBY", "how do I qualify for PMSBY", "Who is eligible for PMSBY?"],
+            "responses": ["Individuals aged 18 to 70 years with a bank account are eligible to enroll in the Pradhan Mantri Suraksha Bima Yojana (PMSBY) scheme by paying the annual premium."]
+        },
+        {
+            "tag": "pmsby_enrollment_process",
+            "patterns": ["Enrollment process for PMSBY","how to enroll in PMSBY","how to enroll for pmsby","how to apply for pmsby","how to apply for pmsby scheme","application process for pmsby","apply for pmsby", "enroll in PMSBY", "How to enroll in PMSBY?"],
+            "responses": ["Individuals can enroll in the Pradhan Mantri Suraksha Bima Yojana (PMSBY) scheme through participating banks by submitting the prescribed application form and paying the annual premium."]
+        },
+        {
+            "tag": "pmjjby_about",
+            "patterns": ["Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)","give me about PMJJBY scheme","PMJJBY scheme","PMJJBY","about PMJJBY scheme","about PMJJBY","what is PMJJBY scheme","tell me about PMJJBY scheme", "What is PMJJBY?", "Tell me about PMJJBY"],
+            "responses": ["Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) is a government-backed life insurance scheme aimed at providing financial security to individuals and their families. It offers a life cover of ₹2 lakh at a nominal annual premium, providing coverage for death due to any reason."]
+        },
+        {
+            "tag": "pmjjby_more_info",
+            "patterns": ["More information about PMJJBY","where to find more information about PMJJBY scheme","give me more information about PMJJBY scheme","tell me more about PMJJBY scheme","learn more about PMJJBY scheme", "official website for PMJJBY scheme", "more info about PMJJBY scheme","more about PMJJBY","more information about PMJJBY scheme","More information about PMJJBY","tell me some more information about PMJJBY scheme", "where to find more info about PMJJBY", "Where can I find more info about PMJJBY?"],
+            "responses": ["Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) is administered by the Ministry of Finance, Government of India. For detailed information about PMJJBY, individuals can visit the official website of the Ministry or contact designated authorities."]
+        },
+        {
+            "tag": "pmjjby_eligibility_criteria",
+            "patterns": ["Eligibility criteria for PMJJBY","who is eligible for PMJJBY scheme?","who is eligible for PMJJBY","eligibility for PMJJBY scheme?","how do I qualify for PMJJBY scheme", "eligibility criteria for PMJJBY scheme","Eligibility criteria for PMJJBY", "who is eligible for PMJJBY", "how do I qualify for PMJJBY", "Who is eligible for PMJJBY?"],
+            "responses": ["Individuals aged 18 to 50 years with a bank account are eligible to enroll in the Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) scheme by paying the annual premium."]
+        },
+        {
+            "tag": "pmjjby_enrollment_process",
+            "patterns": ["Enrollment process for PMJJBY","how to enroll in PMJJBY","how to enroll for pmjjby","how to apply for pmjjby","how to apply for pmjjby scheme","application process for pmjjby","apply for pmjjby", "enroll in PMJJBY", "How to enroll in PMJJBY?"],
+            "responses": ["Individuals can enroll in the Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) scheme through participating banks by submitting the prescribed application form and paying the annual premium."]
+        },
+        {
+            "tag": "faq",
+            "patterns": ["frequently asked questions", "faq", "common queries"],
+            "responses": ["Sure! Here are some common questions: What are the eligibility criteria for government schemes? How do I apply for a scheme? Where can I find more information about specific schemes?"]
+        },  
+        {
+            "tag": "fallback",
+            "patterns": [],
+            "responses": ["I'm sorry, I didn't quite understand that. Could you please rephrase your query?", "I'm not sure I follow. Could you try asking in a different way?", "Apologies, I couldn't grasp that. Can you provide more context?"]
+        }
+    ]
+}
